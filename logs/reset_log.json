@@ -1,0 +1,2 @@
+{"ts": "2025-08-26T13:13:28.664368+02:00", "level": "INFO", "message": "Initializing database..."}
+{"ts": "2025-08-26T13:13:28.677950+02:00", "level": "INFO", "message": "Database initialized at events.db"}

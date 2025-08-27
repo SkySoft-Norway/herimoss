@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moss Kulturkalender - Alle kulturarrangementer i Moss</title>
+    <meta name="description" content="Komplett oversikt over kulturarrangementer i Moss kommune. Konserter, teater, utstillinger og mer fra Moss Kulturhus, Verket Scene og andre lokale arrangører.">
+    <meta name="keywords" content="moss, kultur, kalender, arrangementer, konserter, teater, utstillinger, moss kulturhus, verket scene">
+    <meta name="author" content="Moss Kulturkalender">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://herimoss.no/">
+    <meta property="og:title" content="Moss Kulturkalender">
+    <meta property="og:description" content="Komplett oversikt over kulturarrangementer i Moss kommune">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://herimoss.no/">
+    <meta property="twitter:title" content="Moss Kulturkalender">
+    <meta property="twitter:description" content="Komplett oversikt over kulturarrangementer i Moss kommune">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 30px;
+            text-align: center;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        
+        .status {
+            background: rgba(52, 152, 219, 0.1);
+            border: 1px solid #3498db;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .status-icon {
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+        
+        /* Filter & Search Controls */
+        .controls-section {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+        
+        .search-bar {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 25px;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            transition: border-color 0.3s ease;
+        }
+        
+        .search-bar:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+        
+        .filter-tabs {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+        
+        .filter-tab {
+            background: #ecf0f1;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.9em;
+        }
+        
+        .filter-tab.active, .filter-tab:hover {
+            background: #3498db;
+            color: white;
+        }
+        
+        .view-toggle {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .view-btn {
+            background: #95a5a6;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+        
+        .view-btn.active {
+            background: #2980b9;
+        }
+        
+        /* Events Section */
+        .events-section {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        
+        .events-section h2 {
+            color: #2c3e50;
+            margin-bottom: 25px;
+            font-size: 2em;
+            text-align: center;
+        }
+        
+        .events-grid {
+            display: grid;
+            gap: 20px;
+        }
+        
+        .event-card {
+            display: flex;
+            background: #fff;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid #3498db;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .event-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .event-date {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            margin-right: 20px;
+            min-width: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .event-day {
+            font-size: 2em;
+            font-weight: bold;
+            line-height: 1;
+        }
+        
+        .event-month {
+            font-size: 0.9em;
+            margin-top: 5px;
+        }
+        
+        .event-weekday {
+            font-size: 0.8em;
+            opacity: 0.9;
+            margin-top: 2px;
+        }
+        
+        .event-info {
+            flex: 1;
+        }
+        
+        .event-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 10px;
+        }
+        
+        .event-title {
+            color: #2c3e50;
+            margin-bottom: 5px;
+            font-size: 1.3em;
+            flex: 1;
+        }
+        
+        .event-actions {
+            display: flex;
+            gap: 5px;
+            margin-left: 10px;
+        }
+        
+        .action-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2em;
+            padding: 5px;
+            border-radius: 50%;
+            transition: background 0.3s ease;
+        }
+        
+        .action-btn:hover {
+            background: rgba(0,0,0,0.1);
+        }
+        
+        .action-btn.favorited {
+            color: #e74c3c;
+        }
+        
+        .event-details {
+            margin-bottom: 10px;
+        }
+        
+        .event-time, .event-venue {
+            display: inline-block;
+            margin-right: 15px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        
+        .event-description {
+            color: #555;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+            line-height: 1.4;
+        }
+        
+        .event-description.collapsed {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        .read-more {
+            color: #3498db;
+            cursor: pointer;
+            font-weight: bold;
+            margin-left: 5px;
+        }
+        
+        .event-price {
+            color: #27ae60;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .event-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .event-link {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 0.9em;
+            transition: background 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .event-link:hover {
+            background: #2980b9;
+        }
+        
+        .event-link.secondary {
+            background: #95a5a6;
+        }
+        
+        .event-link.secondary:hover {
+            background: #7f8c8d;
+        }
+        
+        .event-link.success {
+            background: #27ae60;
+        }
+        
+        .event-link.success:hover {
+            background: #219a52;
+        }
+        
+        .availability-indicator {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #27ae60;
+        }
+        
+        .availability-indicator.limited {
+            background: #f39c12;
+        }
+        
+        .availability-indicator.sold-out {
+            background: #e74c3c;
+        }
+        
+        .category-tag {
+            display: inline-block;
+            background: rgba(52, 152, 219, 0.1);
+            color: #2980b9;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+        
+        .no-events {
+            text-align: center;
+            padding: 50px;
+            color: #7f8c8d;
+        }
+        
+        .update-info {
+            background: rgba(52, 152, 219, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+            font-size: 0.9em;
+            color: #34495e;
+        }
+        
+        .auto-update-status {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background: #27ae60;
+            border-radius: 50%;
+            margin-right: 8px;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        
+        /* Modal for event details */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.4);
+            backdrop-filter: blur(5px);
+        }
+        
+        .modal-content {
+            background-color: white;
+            margin: 5% auto;
+            padding: 30px;
+            border-radius: 20px;
+            width: 90%;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+        
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .close:hover {
+            color: black;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            color: rgba(255, 255, 255, 0.8);
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .event-card {
+                flex-direction: column;
+            }
+            
+            .event-date {
+                margin-right: 0;
+                margin-bottom: 15px;
+                min-width: auto;
+                flex-direction: row;
+                justify-content: space-around;
+                padding: 10px;
+            }
+            
+            .event-day {
+                font-size: 1.5em;
+            }
+            
+            .filter-tabs {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎭 Moss Kulturkalender</h1>
+            <p class="subtitle">Din komplette guide til kulturarrangementer i Moss kommune</p>
+            
+            <div class="status">
+                <span class="status-icon">🎉</span>
+                <strong>System er aktivt med arrangementer!</strong> 
+                <span class="auto-update-status"></span>Oppdateres automatisk
+            </div>
+        </header>
+        
+        <!-- DEMO: Controls Section -->
+        <div class="controls-section">
+            <!-- Function 14: Text Search -->
+            <input type="text" class="search-bar" placeholder="🔍 Søk i arrangementer..." id="searchInput">
+            
+            <!-- Function 11: Date Category Filter -->
+            <div class="filter-tabs">
+                <button class="filter-tab active" data-filter="all">Alle</button>
+                <button class="filter-tab" data-filter="today">I dag</button>
+                <button class="filter-tab" data-filter="week">Denne uken</button>
+                <button class="filter-tab" data-filter="month">Denne måneden</button>
+                <button class="filter-tab" data-filter="free">Gratis</button>
+                <button class="filter-tab" data-filter="theater">Teater</button>
+                <button class="filter-tab" data-filter="music">Musikk</button>
+                <button class="filter-tab" data-filter="family">Familie</button>
+            </div>
+            
+            <!-- Function 16: Calendar View Toggle -->
+            <div class="view-toggle">
+                <button class="view-btn active" data-view="list">📋 Liste</button>
+                <button class="view-btn" data-view="calendar">📅 Kalender</button>
+            </div>
+        </div>
+        
+        <div class="events-section">
+            <h2>📅 Kommende arrangementer</h2>
+            
+            <div class="update-info">
+                <strong>Sist oppdatert:</strong> <span id="lastUpdate">26. august 2025 kl. 09:28</span> | 
+                <strong>Antall arrangementer:</strong> <span id="eventCount">52</span> kommende
+            </div>
+            
+            <div class="events-grid" id="eventsGrid">
+                <!-- DEMO EVENT CARDS with enhanced features -->
+                
+                <!-- Event 1: With all functions -->
+                <div class="event-card" data-category="music" data-date="2025-08-30">
+                    <div class="availability-indicator"></div>
+                    
+                    <div class="event-date">
+                        <div class="event-day">30</div>
+                        <div class="event-month">AUG</div>
+                        <div class="event-weekday">FRE</div>
+                    </div>
+                    
+                    <div class="event-info">
+                        <div class="event-header">
+                            <h3 class="event-title">Compagniet – Moss bluesklubb</h3>
+                            <div class="event-actions">
+                                <!-- Function 10: Favorites -->
+                                <button class="action-btn favorite-btn" title="Legg til favoritter">❤️</button>
+                                <!-- Function 9: Social sharing -->
+                                <button class="action-btn share-btn" title="Del arrangement">📤</button>
+                                <!-- Function 7: Quick preview -->
+                                <button class="action-btn preview-btn" title="Hurtigforhåndsvisning">👁️</button>
+                            </div>
+                        </div>
+                        
+                        <div class="category-tag">Musikk</div>
+                        <div class="category-tag">Blues</div>
+                        
+                        <div class="event-details">
+                            <span class="event-time">🕒 19:30</span>
+                            <span class="event-venue">📍 Samfunnshuset</span>
+                        </div>
+                        
+                        <p class="event-description collapsed">
+                            En fantastisk blues-opplevelse med Compagniet, kjent for sin autentiske lyd og engasjerende scenepresentasjoner. Kvelden byr på klassiske blues-låter og noen overraskelser...
+                            <span class="read-more" onclick="toggleDescription(this)">Les mer</span>
+                        </p>
+                        
+                        <div class="event-price">💰 Kr 250,-</div>
+                        
+                        <div class="event-buttons">
+                            <!-- Function 1: Quick booking -->
+                            <a href="#" class="event-link success">🎫 Kjøp billett</a>
+                            <!-- Function 7: More info -->
+                            <button class="event-link secondary" onclick="showEventDetails('event1')">ℹ️ Mer info</button>
+                            <!-- Function 18: Set reminder -->
+                            <button class="event-link" onclick="setReminder('event1')">🔔 Påminnelse</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Event 2: Theater example -->
+                <div class="event-card" data-category="theater" data-date="2025-09-02">
+                    <div class="availability-indicator limited"></div>
+                    
+                    <div class="event-date">
+                        <div class="event-day">2</div>
+                        <div class="event-month">SEP</div>
+                        <div class="event-weekday">TIR</div>
+                    </div>
+                    
+                    <div class="event-info">
+                        <div class="event-header">
+                            <h3 class="event-title">Verdiløse menn – En Jokke-mussikal</h3>
+                            <div class="event-actions">
+                                <button class="action-btn favorite-btn" title="Legg til favoritter">🤍</button>
+                                <button class="action-btn share-btn" title="Del arrangement">📤</button>
+                                <button class="action-btn preview-btn" title="Hurtigforhåndsvisning">👁️</button>
+                            </div>
+                        </div>
+                        
+                        <div class="category-tag">Teater</div>
+                        <div class="category-tag">Musikal</div>
+                        
+                        <div class="event-details">
+                            <span class="event-time">🕒 19:00</span>
+                            <span class="event-venue">📍 Parkteatret</span>
+                        </div>
+                        
+                        <p class="event-description collapsed">
+                            En hyllest til Joachim Nielsen og hans musikk. En gripende forestilling som tar deg med på en reise...
+                            <span class="read-more" onclick="toggleDescription(this)">Les mer</span>
+                        </p>
+                        
+                        <div class="event-price">💰 Kr 350,- (få billetter igjen)</div>
+                        
+                        <div class="event-buttons">
+                            <a href="#" class="event-link success">🎫 Kjøp billett</a>
+                            <button class="event-link secondary" onclick="showEventDetails('event2')">ℹ️ Mer info</button>
+                            <button class="event-link" onclick="setReminder('event2')">🔔 Påminnelse</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Event 3: Family event -->
+                <div class="event-card" data-category="family" data-date="2025-09-17">
+                    <div class="availability-indicator"></div>
+                    
+                    <div class="event-date">
+                        <div class="event-day">17</div>
+                        <div class="event-month">SEP</div>
+                        <div class="event-weekday">ONS</div>
+                    </div>
+                    
+                    <div class="event-info">
+                        <div class="event-header">
+                            <h3 class="event-title">Juliet & Romeo – Nonstopfestivalen</h3>
+                            <div class="event-actions">
+                                <button class="action-btn favorite-btn" title="Legg til favoritter">🤍</button>
+                                <button class="action-btn share-btn" title="Del arrangement">📤</button>
+                                <button class="action-btn preview-btn" title="Hurtigforhåndsvisning">👁️</button>
+                            </div>
+                        </div>
+                        
+                        <div class="category-tag">Familie</div>
+                        <div class="category-tag">Teater</div>
+                        <div class="category-tag">Festival</div>
+                        
+                        <div class="event-details">
+                            <span class="event-time">🕒 18:00</span>
+                            <span class="event-venue">📍 Parkteatret</span>
+                        </div>
+                        
+                        <p class="event-description collapsed">
+                            En moderne tolkning av den klassiske kjærlighetshistorien, perfekt for hele familien...
+                            <span class="read-more" onclick="toggleDescription(this)">Les mer</span>
+                        </p>
+                        
+                        <div class="event-price">💰 Gratis adgang</div>
+                        
+                        <div class="event-buttons">
+                            <a href="#" class="event-link success">🎫 Reserver plass</a>
+                            <button class="event-link secondary" onclick="showEventDetails('event3')">ℹ️ Mer info</button>
+                            <button class="event-link" onclick="setReminder('event3')">🔔 Påminnelse</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+        <!-- Function 7: Event Details Modal -->
+        <div id="eventModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div id="modalContent">
+                    <!-- Dynamic content will be loaded here -->
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>🌍 <strong>Moss Kulturkalender</strong> - Skapt med ❤️ for Moss kommune</p>
+            <p>Automatisk oppdatert fra Moss Kulturhus, Verket Scene og andre lokale kilder</p>
+            <p>Besøk gjerne <a href="https://moss.kommune.no" style="color: rgba(255,255,255,0.9);">moss.kommune.no</a> for offisiell informasjon</p>
+        </footer>
+    </div>
+    
+    <script>
+        // Function implementations
+        
+        // Function 14: Text Search
+        document.getElementById('searchInput').addEventListener('input', function(e) {
+            const searchTerm = e.target.value.toLowerCase();
+            const eventCards = document.querySelectorAll('.event-card');
+            
+            eventCards.forEach(card => {
+                const title = card.querySelector('.event-title').textContent.toLowerCase();
+                const description = card.querySelector('.event-description').textContent.toLowerCase();
+                const venue = card.querySelector('.event-venue').textContent.toLowerCase();
+                
+                if (title.includes(searchTerm) || description.includes(searchTerm) || venue.includes(searchTerm)) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        });
+        
+        // Function 11: Date Category Filter
+        document.querySelectorAll('.filter-tab').forEach(tab => {
+            tab.addEventListener('click', function() {
+                // Remove active class from all tabs
+                document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+                // Add active class to clicked tab
+                this.classList.add('active');
+                
+                const filter = this.dataset.filter;
+                const eventCards = document.querySelectorAll('.event-card');
+                
+                eventCards.forEach(card => {
+                    if (filter === 'all') {
+                        card.style.display = 'flex';
+                    } else if (filter === 'free') {
+                        const priceText = card.querySelector('.event-price')?.textContent || '';
+                        card.style.display = priceText.includes('Gratis') ? 'flex' : 'none';
+                    } else {
+                        const category = card.dataset.category;
+                        card.style.display = category === filter ? 'flex' : 'none';
+                    }
+                });
+            });
+        });
+        
+        // Function 16: View Toggle
+        document.querySelectorAll('.view-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                
+                const view = this.dataset.view;
+                const eventsGrid = document.getElementById('eventsGrid');
+                
+                if (view === 'calendar') {
+                    eventsGrid.style.display = 'grid';
+                    eventsGrid.style.gridTemplateColumns = 'repeat(auto-fit, minmax(300px, 1fr))';
+                    alert('Kalendervisning kommer snart! 📅');
+                } else {
+                    eventsGrid.style.display = 'grid';
+                    eventsGrid.style.gridTemplateColumns = '1fr';
+                }
+            });
+        });
+        
+        // Function 6: Expand/Collapse Description
+        function toggleDescription(element) {
+            const description = element.parentElement;
+            if (description.classList.contains('collapsed')) {
+                description.classList.remove('collapsed');
+                element.textContent = 'Les mindre';
+            } else {
+                description.classList.add('collapsed');
+                element.textContent = 'Les mer';
+            }
+        }
+        
+        // Function 10: Favorites
+        document.querySelectorAll('.favorite-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                if (this.classList.contains('favorited')) {
+                    this.classList.remove('favorited');
+                    this.textContent = '🤍';
+                    this.title = 'Legg til favoritter';
+                } else {
+                    this.classList.add('favorited');
+                    this.textContent = '❤️';
+                    this.title = 'Fjern fra favoritter';
+                }
+            });
+        });
+        
+        // Function 9: Social Sharing
+        document.querySelectorAll('.share-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const eventCard = this.closest('.event-card');
+                const title = eventCard.querySelector('.event-title').textContent;
+                const venue = eventCard.querySelector('.event-venue').textContent;
+                const date = eventCard.querySelector('.event-date').textContent.trim();
+                
+                const shareText = `Sjekk ut: ${title} - ${venue} - ${date}`;
+                const shareUrl = window.location.href;
+                
+                if (navigator.share) {
+                    navigator.share({
+                        title: 'Moss Kulturkalender',
+                        text: shareText,
+                        url: shareUrl
+                    });
+                } else {
+                    // Fallback: copy to clipboard
+                    navigator.clipboard.writeText(`${shareText} - ${shareUrl}`);
+                    alert('Link kopiert til utklippstavle! 📋');
+                }
+            });
+        });
+        
+        // Function 7: Event Details Modal
+        function showEventDetails(eventId) {
+            const modal = document.getElementById('eventModal');
+            const modalContent = document.getElementById('modalContent');
+            
+            // Demo content - in real implementation, fetch from database
+            modalContent.innerHTML = `
+                <h2>Compagniet – Moss bluesklubb</h2>
+                <p><strong>📅 Dato:</strong> Fredag 30. august 2025, 19:30</p>
+                <p><strong>📍 Venue:</strong> Samfunnshuset, Moss</p>
+                <p><strong>💰 Pris:</strong> Kr 250,-</p>
+                
+                <h3>Om arrangementet</h3>
+                <p>En fantastisk blues-opplevelse med Compagniet, kjent for sin autentiske lyd og engasjerende scenepresentasjoner. Kvelden byr på klassiske blues-låter og noen overraskelser fra bandets repertoar.</p>
+                
+                <h3>Praktisk informasjon</h3>
+                <p>• Døråpning: 19:00<br>
+                • Konsertstart: 19:30<br>
+                • Aldersgrense: 18 år<br>
+                • Servering: Bar tilgjengelig</p>
+                
+                <h3>Kommende konserter</h3>
+                <p>Se også våre andre blues-arrangementer denne høsten!</p>
+                
+                <div style="margin-top: 20px;">
+                    <button class="event-link success" style="margin-right: 10px;">🎫 Kjøp billett</button>
+                    <button class="event-link" onclick="setReminder('${eventId}')">🔔 Påminnelse</button>
+                </div>
+            `;
+            
+            modal.style.display = 'block';
+        }
+        
+        // Function 18: Set Reminder
+        function setReminder(eventId) {
+            // In real implementation, integrate with calendar API
+            alert('Påminnelse satt! 🔔 Du vil få beskjed 1 time før arrangementet starter.');
+        }
+        
+        // Function 7: Quick Preview
+        document.querySelectorAll('.preview-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                showEventDetails('demo');
+            });
+        });
+        
+        // Modal close functionality
+        document.querySelector('.close').addEventListener('click', function() {
+            document.getElementById('eventModal').style.display = 'none';
+        });
+        
+        window.addEventListener('click', function(event) {
+            const modal = document.getElementById('eventModal');
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+        
+        // Function 17: Auto-update indicator
+        setInterval(function() {
+            document.getElementById('lastUpdate').textContent = new Date().toLocaleDateString('no-NO', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+        }, 60000); // Update every minute
+        
+        // Add some interactive hover effects
+        document.querySelectorAll('.event-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.borderLeftColor = '#e74c3c';
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.borderLeftColor = '#3498db';
+            });
+        });
+    </script>
+</body>
+</html>

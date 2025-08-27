@@ -1,0 +1,307 @@
+{
+  "scraped_at": "2025-08-26T12:11:58.662747",
+  "mode": "offline",
+  "source_url": "https://www.verketscene.no/programmet",
+  "events": [
+    {
+      "title": "Moss vinmesse",
+      "info_url": "https://www.verketscene.no/programmet/vinmesse",
+      "ticket_url": "https://smaksrike.no/produkt/moss-vinmesse/",
+      "start": "2025-09-04T19:00:00",
+      "end": null,
+      "description": "Ta turen over fossen for velge å smake blant mer enn 150 ulike vin fra dyktige vinprodusenter, over store deler av verden.",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Levi Henriksen & Babylon Badlands",
+      "info_url": "https://www.verketscene.no/programmet/teigens-tropper-med-anita-skorgan-9bdlp",
+      "ticket_url": "https://www.ticketmaster.no/event/1649387173",
+      "start": "2025-09-05T19:00:00",
+      "end": null,
+      "description": "Levi Henriksen & Babylon Badlands",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Cir. Cuz",
+      "info_url": "https://www.verketscene.no/programmet/cir-cuz",
+      "ticket_url": "https://www.ticketmaster.no/event/514232765",
+      "start": "2025-09-06T19:00:00",
+      "end": null,
+      "description": "Hitmaskinen Cir.Cuz ruller videre i høyt tempo! De er et fyrverkeri av et live-band, og deres feststemte hit-parade skaper alltid topp stemning, allsang og fest!",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "The Impossible Green M/ Sanguine (Oppvarming)",
+      "info_url": "https://www.verketscene.no/programmet/the-impossible-green",
+      "ticket_url": "https://www.ticketmaster.no/event/867349075",
+      "start": "2025-09-11T19:00:00",
+      "end": null,
+      "description": "The Impossible Green er tilbake med ny musikk og sin største turné hittil - opplev et av landets mest spennende rockeband live denne våren!",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Serve and protect",
+      "info_url": "https://www.verketscene.no/programmet/serveandprotect",
+      "ticket_url": "https://www.ticketmaster.no/event/1659579801",
+      "start": "2025-09-18T19:00:00",
+      "end": null,
+      "description": "Direct Action Theater er et internasjonalt kollektiv som beveger seg på grensen mellom kunst og aktivisme. La oss kalle det – Artivisme. Er det en protest eller en forestilling?",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Standup Moss",
+      "info_url": "https://www.verketscene.no/programmet/standup-moss-1-b68sr",
+      "ticket_url": "https://www.ticketmaster.no/event/1813775691",
+      "start": "2025-09-18T19:00:00",
+      "end": null,
+      "description": "Torsdag 18. september er Standup Moss tilbake med en formidabel gjeng med komikere. Da kommer nemlig Nils-Ingar Aadne, Marlene Stavrum, Bror Karstein Hellesvik og Hannah Lerfaldet.",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Honningbarna",
+      "info_url": "https://www.verketscene.no/programmet/honningbarna",
+      "ticket_url": "https://www.ticketmaster.no/event/525128975",
+      "start": "2025-09-19T19:00:00",
+      "end": null,
+      "description": "Norges beste liveband inntar Verket Scene med ferskt kritikerrost album «Soft Spot». Bli med på en eksplosiv kveld hos oss!",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Sondre Lerche",
+      "info_url": "https://www.verketscene.no/programmet/sondrelerche",
+      "ticket_url": "https://www.ticketmaster.no/event/737810214",
+      "start": "2025-09-20T19:00:00",
+      "end": null,
+      "description": "En aldri så liten miniturné med mitt elskede faste band, som er i sitt fjortende år, og som er viktig i prosessene bak det som skal komme. Håper vi kan sees! - Sondre",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Jonis Josef - PRØVESHOW: KAKTUS",
+      "info_url": "https://www.verketscene.no/programmet/jonisjosef",
+      "ticket_url": "https://www.ticketmaster.no/event/1609981165",
+      "start": "2025-09-24T19:00:00",
+      "end": null,
+      "description": "Jonis Josef skal ha premiere på sitt nye soloshow Kaktus. Og i den anledning må han teste showet sitt i forkant. Han mener selv at Mosse-publikummet er i verdensklasse, og han vil teste ut showet sitt i Moss for første gang.",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Claus Lundekvam",
+      "info_url": "https://www.verketscene.no/programmet/klaus-lundekvam",
+      "ticket_url": "https://www.ticketmaster.no/event/417261401",
+      "start": "2025-09-25T19:00:00",
+      "end": null,
+      "description": "Claus Lundekvam",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Teigens Tropper med Anita Skorgan",
+      "info_url": "https://www.verketscene.no/programmet/teigens-tropper-med-anita-skorgan",
+      "ticket_url": "https://www.ticketmaster.no/event/331367574",
+      "start": "2025-09-26T19:00:00",
+      "end": null,
+      "description": "Teigens Tropper med Anita Skorgan",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Ingenting",
+      "info_url": "https://www.verketscene.no/programmet/ingenting",
+      "ticket_url": "https://www.ticketmaster.no/event/824498528",
+      "start": "2025-09-27T19:00:00",
+      "end": null,
+      "description": "Det legendariske rockebandet Ingenting ble startet på Austrått i Sandnes allerede i 1989. Bandet holder stadig koken, og det skjer svært mye spennende rundt dem.",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Standup Moss",
+      "info_url": "https://www.verketscene.no/programmet/standup-moss-1-dh4ec",
+      "ticket_url": "https://www.ticketmaster.no/event/331788785",
+      "start": "2025-10-16T19:00:00",
+      "end": null,
+      "description": "Velkommen til klubbkveld med Standup Moss! Mer info kommer etterhvert. I mellomtiden kan du sikre deg billett til en god latter!",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Ruben",
+      "info_url": "https://www.verketscene.no/programmet/ruben",
+      "ticket_url": "https://www.ticketmaster.no/event/1345484491",
+      "start": "2025-10-17T19:00:00",
+      "end": null,
+      "description": "Opplev magien når Ruben inntar scenen med sin melankolske pop og sterke tekster! En kveld fylt med følelser, stemning og hits. Ikke gå glipp av denne unike konsertopplevelsen!",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Dusty Cowshit – Octoberfestivalbeernight",
+      "info_url": "https://www.verketscene.no/programmet/dusty-cowshit-octoberfestivalbeernight",
+      "ticket_url": "https://www.ticketmaster.no/event/574001421",
+      "start": "2025-10-18T19:00:00",
+      "end": null,
+      "description": "One Night Only! World Octoberfestival Tour in Moss. This night we’ll hopefully never remember. Let’s do it together - Be there!",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Tobias Sten",
+      "info_url": "https://www.verketscene.no/programmet/tobias-sten",
+      "ticket_url": "https://www.ticketmaster.no/event/1981871586",
+      "start": "2025-10-23T19:00:00",
+      "end": null,
+      "description": "Tobias Sten fra Stord har pustet countrymusikk siden han var liten og startet sitt eget countryband allerede som 12-åring – nå kan du høre han på Verket Scene.",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Rammsund",
+      "info_url": "https://www.verketscene.no/programmet/https/rammsund",
+      "ticket_url": "https://www.ticketmaster.no/event/1446397393",
+      "start": "2025-10-24T19:00:00",
+      "end": null,
+      "description": "Pyro, rock og poesi! Rammsund gjør Rammstein om til et nynorsk kraftverk. Det er mørkt og massivt ,men med glimt i øyet.",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "From Pipers to Bells – The best of Pink Floyd",
+      "info_url": "https://www.verketscene.no/programmet/yh2vahxr1hj3my5sbijjppa1m9gp6j-85czg",
+      "ticket_url": "https://www.ticketmaster.no/event/40650979",
+      "start": "2025-10-25T19:00:00",
+      "end": null,
+      "description": "A Saucerful of Secrets Inviterer deg med på en episk reise i Pink Floyd sin verden! Bli med «From Pipers to Bells».",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "D.D.E.",
+      "info_url": "https://www.verketscene.no/programmet/dde",
+      "ticket_url": "https://www.ticketmaster.no/event/59302343",
+      "start": "2025-10-31T19:00:00",
+      "end": null,
+      "description": "D.D.E. kommer til Verket Scene. Opplev et av Norges mest folkekjære band live hos oss!",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Tre Små Kinesere",
+      "info_url": "https://www.verketscene.no/programmet/tresmakinesere",
+      "ticket_url": "https://www.ticketmaster.no/event/1424782889",
+      "start": "2025-11-01T19:00:00",
+      "end": null,
+      "description": "Med varme tekster, fengende melodier og en helt særegen signatur i norsk pophistorie har Tre Små Kinesere gledet publikum i over 30 år. Nå står de endelig på scenen i Moss! Bli med på en kveld fylt med nostalgi, musikalsk presisjon og noen av de mest folkekjære låtene vi har.",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Karius og Baktus",
+      "info_url": "https://www.verketscene.no/programmet/karius-og-baktus",
+      "ticket_url": "https://www.ticketmaster.no/event/2016198429",
+      "start": "2025-11-02T19:00:00",
+      "end": null,
+      "description": "HURRA! Karius og Baktus kommer til Verket Scene med gærne påfunn og morsomme sprell. Få med deg denne populære forestillingen full av sjarme og humor, og bli med når tanntrollene flytter inn i munnen til Jens.",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Salmer på pøbb",
+      "info_url": "https://www.verketscene.no/programmet/spp",
+      "ticket_url": "https://www.ticketmaster.no/event/1831859514",
+      "start": "2025-11-05T19:00:00",
+      "end": null,
+      "description": "Lewi Bergrud, Thor-Erik Fjellvang, med band og gjester.",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Thor Gotaas - Et muntert blikk på norsk skihistorie",
+      "info_url": "https://www.verketscene.no/programmet/et-muntert-blikk-p-norsk-skihistorie",
+      "ticket_url": "https://www.originaltalks.no/events/thor-gotaas-et-muntert-blikk-paa-norsk-skihistorie-494/10400-moss-2025-11-06",
+      "start": "2025-11-06T19:00:00",
+      "end": null,
+      "description": "Thor Gotaas - Et muntert blikk på norsk skihistorie",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Spidergawd W/ Special guest: EL Cuero",
+      "info_url": "https://www.verketscene.no/programmet/spidergawd",
+      "ticket_url": "https://www.ticketmaster.no/event/2085672995",
+      "start": "2025-11-07T19:00:00",
+      "end": null,
+      "description": "Kjent for sine liveprestasjoner er bandet klar for å se deg rett i øynene høsten 2025 og våren 2026 når de spiller seg fra Norge til Sverige og nedover Europa.",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Admiral P",
+      "info_url": "https://www.verketscene.no/programmet/admiralp",
+      "ticket_url": "https://www.ticketmaster.no/event/2054332356",
+      "start": "2025-11-08T19:00:00",
+      "end": null,
+      "description": "Admiral P er et sjeldent talent som har satt sitt unike preg på en sjanger som både er i vekst og fortsatt underrepresentert i norsk populærkultur.",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Fremsikt Konferansen 2025",
+      "info_url": "https://www.verketscene.no/programmet/fremsiktkonferansen2025",
+      "ticket_url": "https://event.checkin.no/158728/fremsiktkonferansen-2025",
+      "start": "2025-11-12T19:00:00",
+      "end": null,
+      "description": "Vil du lære hvordan beredskap, grønn omstilling og samarbeid kan bli en styrke – både for bedriften din og for regionen vår?",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Standup Moss",
+      "info_url": "https://www.verketscene.no/programmet/standup-moss-1-h9587",
+      "ticket_url": "https://www.ticketmaster.no/event/225104322",
+      "start": "2025-11-13T19:00:00",
+      "end": null,
+      "description": "Velkommen til klubbkveld med Standup Moss! Mer info kommer etterhvert. I mellomtiden kan du sikre deg billett til en god latter!",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Else og Skrellex med venner",
+      "info_url": "https://www.verketscene.no/programmet/else-og-skrellex",
+      "ticket_url": "https://www.ticketmaster.no/event/692290897",
+      "start": "2025-11-14T19:00:00",
+      "end": null,
+      "description": "Endelig er de her – bedre, gøyere og drøyere enn noen gang! Stand Up Norge presenterer stolt: Else og Skrellex – med venner!",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "STAUT",
+      "info_url": "https://www.verketscene.no/programmet/staut",
+      "ticket_url": "https://www.ticketmaster.no/event/195349791",
+      "start": "2025-11-15T19:00:00",
+      "end": null,
+      "description": "Etter femten år med studioalbum, radiosingler, bøttevis med TV-opptredener, kritikerros og folkefest fra nord til sør, står STAUT stødigere enn noensinne – med blikket rettet fremover.",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    },
+    {
+      "title": "Julestemning med Live og Ronny",
+      "info_url": "https://www.verketscene.no/programmet/julestemning-med-live-og-ronny",
+      "ticket_url": "https://www.ticketmaster.no/event/941251014",
+      "start": "2025-11-18T19:00:00",
+      "end": null,
+      "description": "Live Nelvik sliter med å finne julestemningen. Det gjør ikke Ronny Brede Aase. Med hvert sitt forhold til jul gir de deg en deilig og underholdende pause, i en (for noen) stressende tid - for første gang på en scene nær deg!",
+      "venue": "Verket Scene",
+      "price": "Ukjent"
+    }
+  ]
+}

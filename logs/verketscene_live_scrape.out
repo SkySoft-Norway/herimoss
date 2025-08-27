@@ -1,0 +1,3 @@
+INFO:root:Fetched live Verket Scene program page.
+INFO:root:Detail enrichment enabled; fetching individual event pages...
+INFO:root:Saved 0 events to /var/www/vhosts/herimoss.no/pythoncrawler/verketscene_events.json (offline_used=False)

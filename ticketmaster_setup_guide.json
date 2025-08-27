@@ -1,0 +1,98 @@
+{
+  "ticketmaster_developer_setup": {
+    "api_name": "Ticketmaster Discovery API",
+    "documentation": "https://developer.ticketmaster.com/products-and-docs/apis/discovery-api/v2/",
+    "registration": "https://developer.ticketmaster.com/",
+    "application_details": {
+      "application_name_suggestions": [
+        "Moss Kulturkalender",
+        "Herimoss Event Calendar",
+        "Moss Cultural Events Aggregator",
+        "Local Events Norway - Moss",
+        "MossEvents.no API Client"
+      ],
+      "redirect_uri_suggestions": [
+        "https://herimoss.no/api/ticketmaster/callback",
+        "https://herimoss.no/auth/ticketmaster",
+        "https://www.herimoss.no/api/oauth/ticketmaster",
+        "http://localhost:8000/callback",
+        "https://herimoss.no/admin/integrations/ticketmaster"
+      ],
+      "logo_url_suggestions": [
+        "https://herimoss.no/assets/logo.png",
+        "https://herimoss.no/images/moss-kalender-logo.png",
+        "https://raw.githubusercontent.com/yourusername/moss-events/main/logo.png"
+      ]
+    },
+    "api_key_setup": {
+      "authentication_type": "API Key (Consumer Key)",
+      "no_oauth_required": "For basic Discovery API access",
+      "rate_limits": "5000 requests per day (free tier)",
+      "paid_plans": "Available for higher limits"
+    }
+  },
+  "api_endpoints_for_moss": {
+    "event_search": {
+      "endpoint": "https://app.ticketmaster.com/discovery/v2/events.json",
+      "parameters": {
+        "city": "Moss",
+        "countryCode": "NO",
+        "classificationName": "Music,Arts & Theatre",
+        "size": "20",
+        "sort": "date,asc",
+        "apikey": "YOUR_API_KEY"
+      },
+      "example_url": "https://app.ticketmaster.com/discovery/v2/events.json?city=Moss&countryCode=NO&classificationName=Music&apikey=YOUR_KEY"
+    },
+    "venue_search": {
+      "endpoint": "https://app.ticketmaster.com/discovery/v2/venues.json",
+      "parameters": {
+        "city": "Moss",
+        "countryCode": "NO",
+        "apikey": "YOUR_API_KEY"
+      }
+    },
+    "event_details": {
+      "endpoint": "https://app.ticketmaster.com/discovery/v2/events/{id}.json",
+      "description": "Get detailed information about a specific event"
+    }
+  },
+  "implementation_steps": [
+    "1. Register at https://developer.ticketmaster.com/",
+    "2. Create new application with suggested names above",
+    "3. Add redirect URI (use production URL)",
+    "4. Upload logo (300x300px PNG recommended)",
+    "5. Get API Consumer Key",
+    "6. Test API with curl or Postman",
+    "7. Implement Python client",
+    "8. Add to automated scraping system"
+  ],
+  "python_implementation": "\nimport requests\nimport json\nfrom datetime import datetime\n\nclass TicketmasterAPI:\n    def __init__(self, api_key):\n        self.api_key = api_key\n        self.base_url = \"https://app.ticketmaster.com/discovery/v2\"\n        \n    def search_events_in_moss(self, classification=\"Music,Arts & Theatre\"):\n        \"\"\"Search for events in Moss, Norway\"\"\"\n        \n        params = {\n            \"city\": \"Moss\",\n            \"countryCode\": \"NO\", \n            \"classificationName\": classification,\n            \"size\": 50,\n            \"sort\": \"date,asc\",\n            \"apikey\": self.api_key\n        }\n        \n        try:\n            response = requests.get(f\"{self.base_url}/events.json\", params=params)\n            if response.status_code == 200:\n                data = response.json()\n                return data.get(\"_embedded\", {}).get(\"events\", [])\n            else:\n                print(f\"API Error: {response.status_code}\")\n                return []\n        except Exception as e:\n            print(f\"Error: {e}\")\n            return []\n    \n    def get_event_details(self, event_id):\n        \"\"\"Get detailed information about a specific event\"\"\"\n        \n        try:\n            url = f\"{self.base_url}/events/{event_id}.json\"\n            params = {\"apikey\": self.api_key}\n            \n            response = requests.get(url, params=params)\n            if response.status_code == 200:\n                return response.json()\n            return None\n        except Exception as e:\n            print(f\"Error getting event details: {e}\")\n            return None\n\n# Usage example:\n# api = TicketmasterAPI(\"YOUR_API_KEY_HERE\")\n# events = api.search_events_in_moss()\n# for event in events:\n#     print(f\"{event['name']} - {event['dates']['start']['localDate']}\")\n        ",
+  "data_mapping": {
+    "ticketmaster_to_moss_db": {
+      "title": "event['name']",
+      "venue": "event['_embedded']['venues'][0]['name']",
+      "start_time": "event['dates']['start']['localDate'] + event['dates']['start']['localTime']",
+      "description": "event['info'] or event['pleaseNote']",
+      "price": "event['priceRanges'][0] (if available)",
+      "booking_url": "event['url']",
+      "category": "event['classifications'][0]['segment']['name']",
+      "external_id": "event['id']"
+    }
+  },
+  "error_handling": {
+    "common_errors": {
+      "401": "Invalid API key",
+      "403": "Rate limit exceeded or API access denied",
+      "404": "No events found for the criteria",
+      "429": "Too many requests - implement rate limiting"
+    },
+    "best_practices": [
+      "Implement exponential backoff for rate limiting",
+      "Cache API responses to reduce requests",
+      "Monitor daily API usage",
+      "Handle empty results gracefully",
+      "Store API responses for debugging"
+    ]
+  }
+}

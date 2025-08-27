@@ -1,0 +1,31 @@
+2025-08-26 09:24:10,666 - INFO - 🎭 Starting Moss Kulturhus scraping with direct DB save...
+2025-08-26 09:24:10,725 - INFO - 📍 Scraping URLs: ['https://www.mosskulturhus.no/program', 'https://www.mosskulturhus.no/arrangementer']
+2025-08-26 09:24:10,725 - INFO - Fetching HTML from https://www.mosskulturhus.no/program
+2025-08-26 09:24:11,482 - INFO - Extracted 60 events from HTML
+2025-08-26 09:24:11,482 - INFO - Fetching HTML from https://www.mosskulturhus.no/arrangementer
+2025-08-26 09:24:16,226 - ERROR - [Moss Kulturhus] Error scraping HTML: RetryError[<Future at 0x7fa2c0e8d300 state=finished raised HTTPStatusError>]
+2025-08-26 09:24:16,226 - INFO - ✅ Found 60 events from Moss Kulturhus
+2025-08-26 09:24:16,229 - INFO - 💾 Successfully saved 60 events to database!
+2025-08-26 09:24:16,229 - INFO - 📋 Sample events:
+2025-08-26 09:24:16,229 - INFO -   1. Compagniet – Moss bluesklubb
+2025-08-26 09:24:16,230 - INFO -      📍 Samfunnshuset
+2025-08-26 09:24:16,230 - INFO -      📅 2025-08-30 02:00:00+02:00
+2025-08-26 09:24:16,230 - INFO - 
+2025-08-26 09:24:16,230 - INFO -   2. Natalie Aldema duo – Kafé 67+
+2025-08-26 09:24:16,230 - INFO -      📍 Samfunnshuset
+2025-08-26 09:24:16,230 - INFO -      📅 2025-09-02 02:00:00+02:00
+2025-08-26 09:24:16,230 - INFO - 
+2025-08-26 09:24:16,230 - INFO -   3. Verdiløse menn – En Jokke-mussikal
+2025-08-26 09:24:16,230 - INFO -      📍 Parkteatret
+2025-08-26 09:24:16,230 - INFO -      📅 2025-09-02 02:00:00+02:00
+2025-08-26 09:24:16,230 - INFO - 
+2025-08-26 09:24:16,230 - INFO -   4. Juliet & Romeo – Nonstopfestivalen
+2025-08-26 09:24:16,230 - INFO -      📍 Parkteatret
+2025-08-26 09:24:16,230 - INFO -      📅 2025-09-17 02:00:00+02:00
+2025-08-26 09:24:16,230 - INFO - 
+2025-08-26 09:24:16,230 - INFO -   5. Festivalpass – Nonstop Internasjonale teaterfestival 2025
+2025-08-26 09:24:16,230 - INFO -      📍 Moss
+2025-08-26 09:24:16,231 - INFO -      📅 2025-09-17 02:00:00+02:00
+2025-08-26 09:24:16,231 - INFO - 
+
+🎉 Successfully processed and saved 60 events from Moss Kulturhus!

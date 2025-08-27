@@ -1,0 +1,18 @@
+{"ts": "2025-08-26T13:25:38.928271+02:00", "level": "INFO", "message": "MariaDB schema ready"}
+{"ts": "2025-08-26T13:27:30.959180+02:00", "level": "INFO", "message": "MariaDB schema ready"}
+{"ts": "2025-08-26T13:27:30.980010+02:00", "level": "INFO", "message": "MariaDB saved events from mosskulturhus: {'new': 70, 'updated': 0, 'duplicates': 0}"}
+{"ts": "2025-08-26T13:35:06.881256+02:00", "level": "INFO", "message": "MariaDB schema ready"}
+{"ts": "2025-08-26T13:35:06.901931+02:00", "level": "INFO", "message": "MariaDB saved events from mosskulturhus: {'new': 3, 'updated': 0, 'duplicates': 67}"}
+{"ts": "2025-08-26T13:35:06.909853+02:00", "level": "INFO", "message": "MariaDB saved events from verketscene: {'new': 30, 'updated': 0, 'duplicates': 0}"}
+{"ts": "2025-08-26T13:47:14.714764+02:00", "level": "INFO", "message": "MariaDB schema ready"}
+{"ts": "2025-08-26T13:47:14.735147+02:00", "level": "INFO", "message": "MariaDB saved events from mosskulturhus: {'new': 3, 'updated': 0, 'duplicates': 67}"}
+{"ts": "2025-08-26T13:47:14.741945+02:00", "level": "INFO", "message": "MariaDB saved events from verketscene: {'new': 0, 'updated': 0, 'duplicates': 30}"}
+{"ts": "2025-08-26T14:08:15.864981+02:00", "level": "INFO", "message": "MariaDB schema ready"}
+{"ts": "2025-08-26T14:08:15.886292+02:00", "level": "INFO", "message": "MariaDB saved events from mosskulturhus: {'new': 66, 'updated': 0, 'duplicates': 0}"}
+{"ts": "2025-08-26T14:08:15.892950+02:00", "level": "INFO", "message": "MariaDB saved events from verketscene: {'new': 0, 'updated': 0, 'duplicates': 30}"}
+{"ts": "2025-08-26T14:13:00.718465+02:00", "level": "INFO", "message": "MariaDB schema ready"}
+{"ts": "2025-08-26T14:13:00.747413+02:00", "level": "INFO", "message": "MariaDB saved events from mosskulturhus: {'new': 66, 'updated': 0, 'duplicates': 0}"}
+{"ts": "2025-08-26T14:13:00.756261+02:00", "level": "INFO", "message": "MariaDB saved events from verketscene: {'new': 30, 'updated': 0, 'duplicates': 0}"}
+{"ts": "2025-08-26T15:17:50.932906+02:00", "level": "INFO", "message": "MariaDB schema ready"}
+{"ts": "2025-08-26T15:17:50.958460+02:00", "level": "INFO", "message": "MariaDB saved events from mosskulturhus: {'new': 31, 'updated': 35, 'duplicates': 0}"}
+{"ts": "2025-08-26T15:17:50.965082+02:00", "level": "INFO", "message": "MariaDB saved events from verketscene: {'new': 0, 'updated': 0, 'duplicates': 30}"}

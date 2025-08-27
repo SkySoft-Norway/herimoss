@@ -1,0 +1,38 @@
+
+Emne: Samarbeid om Event-kalender for Moss Kommune - herimoss.no
+
+Hei!
+
+Mitt navn er [DITT_NAVN] og jeg driver herimoss.no - en gratis kulturkalender for Moss kommune som samler alle arrangementer på ett sted.
+
+Vi har allerede integrert arrangementer fra dere gjennom webscraping, men ønsker å tilby et mer direkte og nøyaktig samarbeid.
+
+FORDELENE FOR DERE:
+• Økt synlighet for alle deres arrangementer
+• Automatisk markedsføring uten ekstra arbeid
+• Gratis tjeneste - ingen kostnad for dere
+• Detaljert statistikk over interesse for arrangementer
+• Direkte lenking til deres billettgystem
+
+FORDELENE FOR OSS:
+• Oppdatert og nøyaktig informasjon i sanntid
+• Komplett event-data med alle detaljer
+• Redusert vedlikehold og manuelt arbeid
+
+TEKNISKE LØSNINGER (velg det som passer best):
+1. JSON API - Vi kan lese event-data fra et enkelt API endpoint
+2. RSS Feed - Enkelt RSS-feed med event-informasjon
+3. Email-varsling - Send oss en strukturert email ved nye events
+4. Webhook - Vi mottar automatisk beskjed når dere legger inn nye events
+
+Dette er en win-win situasjon som gir dere mer synlighet og oss bedre data.
+
+Kunne vi hatt en kort samtale om mulighetene?
+
+Med vennlig hilsen,
+[DITT_NAVN]
+[DIN_EMAIL]
+[DIN_TELEFON]
+
+herimoss.no - Moss sin kulturkalender
+        

@@ -1,0 +1,45 @@
+{
+  "title": "Moss Venue Event API Specification",
+  "version": "1.0",
+  "description": "API specification for venue partners to share event data",
+  "endpoints": {
+    "/api/events": {
+      "method": "GET",
+      "description": "Return all upcoming events",
+      "parameters": {
+        "from_date": "YYYY-MM-DD (optional, default: today)",
+        "to_date": "YYYY-MM-DD (optional, default: +6 months)",
+        "limit": "integer (optional, default: 100)"
+      },
+      "response_format": {
+        "events": [
+          {
+            "id": "unique_event_id",
+            "title": "Event title",
+            "description": "Full description",
+            "start_date": "YYYY-MM-DD",
+            "start_time": "HH:MM",
+            "end_date": "YYYY-MM-DD (optional)",
+            "end_time": "HH:MM (optional)",
+            "venue": "Venue name",
+            "address": "Full address",
+            "price": "Price information",
+            "booking_url": "URL to ticket booking",
+            "category": "concert|theater|exhibition|other",
+            "age_limit": "Age limit if any",
+            "accessibility": "Accessibility information",
+            "created_at": "YYYY-MM-DD HH:MM:SS",
+            "updated_at": "YYYY-MM-DD HH:MM:SS"
+          }
+        ],
+        "total": "total_count",
+        "page": "current_page"
+      }
+    }
+  },
+  "authentication": {
+    "method": "API Key",
+    "header": "X-API-Key: YOUR_API_KEY",
+    "alternative": "Basic Authentication"
+  }
+}

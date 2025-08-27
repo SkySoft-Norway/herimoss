@@ -1,0 +1,168 @@
+{
+  "project": "Moss Kulturkalender Event Crawler",
+  "version": "1.0.0",
+  "environment": "production",
+  
+  "system": {
+    "timezone": "Europe/Oslo",
+    "locale": "nb_NO.UTF-8",
+    "max_memory_usage_mb": 512,
+    "max_cpu_usage_percent": 80,
+    "max_disk_usage_percent": 85
+  },
+  
+  "deployment": {
+    "user": "herimoss",
+    "base_path": "/var/www/vhosts/herimoss.no/pythoncrawler",
+    "python_executable": ".venv/bin/python",
+    "log_directory": "logs",
+    "data_directory": "data",
+    "backup_directory": "backups",
+    "reports_directory": "reports"
+  },
+  
+  "scheduling": {
+    "main_crawl": {
+      "weekdays": "0 */2 * * 1-5",
+      "weekends": "0 */4 * * 0,6",
+      "description": "Regular event crawling"
+    },
+    "cleanup": {
+      "schedule": "30 2 * * *",
+      "retention_days": 30,
+      "description": "Daily cleanup of old events"
+    },
+    "analytics": {
+      "schedule": "0 6 * * 0",
+      "period_days": 7,
+      "description": "Weekly analytics report"
+    },
+    "backup": {
+      "schedule": "0 3 1 * *",
+      "retention_count": 12,
+      "description": "Monthly database backup"
+    },
+    "health_check": {
+      "schedule": "0 * * * *",
+      "description": "Hourly system health check"
+    }
+  },
+  
+  "monitoring": {
+    "enabled": true,
+    "health_check_interval": 3600,
+    "alert_thresholds": {
+      "error_rate_percent": 10,
+      "memory_usage_percent": 90,
+      "disk_usage_percent": 90,
+      "response_time_seconds": 30
+    },
+    "log_retention_days": 30,
+    "metrics_retention_days": 90
+  },
+  
+  "security": {
+    "file_permissions": {
+      "scripts": "755",
+      "configs": "600",
+      "logs": "644",
+      "data": "600"
+    },
+    "robots_txt_compliance": true,
+    "rate_limiting": true,
+    "user_agent": "Mozilla/5.0 (compatible; MossKulturkalender/1.0; +https://herimoss.no/crawler-info)"
+  },
+  
+  "performance": {
+    "database": {
+      "cache_size_kb": 10000,
+      "synchronous": "NORMAL",
+      "journal_mode": "WAL",
+      "auto_vacuum": "INCREMENTAL"
+    },
+    "http": {
+      "max_concurrent_requests": 10,
+      "request_timeout_seconds": 30,
+      "max_retries": 3,
+      "backoff_factor": 2,
+      "pool_connections": 10,
+      "pool_maxsize": 20
+    },
+    "memory": {
+      "max_events_in_memory": 5000,
+      "cache_size_mb": 100,
+      "gc_threshold": 1000
+    }
+  },
+  
+  "logging": {
+    "level": "INFO",
+    "format": "json",
+    "rotation": {
+      "max_size_mb": 10,
+      "backup_count": 30,
+      "interval": "daily"
+    },
+    "files": {
+      "main": "crawler.log",
+      "error": "error.log",
+      "cron": "cron.log",
+      "cleanup": "cleanup.log",
+      "analytics": "analytics.log",
+      "backup": "backup.log",
+      "health": "health.log"
+    }
+  },
+  
+  "notifications": {
+    "enabled": false,
+    "email": {
+      "smtp_host": "localhost",
+      "smtp_port": 25,
+      "from_address": "crawler@herimoss.no",
+      "to_addresses": ["admin@herimoss.no"],
+      "on_error": true,
+      "on_success": false
+    },
+    "webhooks": {
+      "enabled": false,
+      "urls": [],
+      "on_error": true,
+      "on_success": false
+    }
+  },
+  
+  "maintenance": {
+    "auto_cleanup": true,
+    "auto_backup": true,
+    "auto_optimization": true,
+    "maintenance_window": {
+      "start_hour": 2,
+      "end_hour": 4,
+      "timezone": "Europe/Oslo"
+    }
+  },
+  
+  "features": {
+    "ml_categorization": true,
+    "performance_monitoring": true,
+    "analytics": true,
+    "deduplication": true,
+    "rate_limiting": true,
+    "caching": true,
+    "retry_logic": true,
+    "graceful_shutdown": true
+  },
+  
+  "exit_codes": {
+    "success": 0,
+    "general_error": 1,
+    "partial_success": 2,
+    "config_error": 3,
+    "permission_error": 4,
+    "network_error": 5,
+    "database_error": 6,
+    "timeout_error": 7,
+    "signal_interrupt": 130
+  }
+}

@@ -1,0 +1,81 @@
+2025-08-26 09:20:16,165 - INFO - 🎭 Starting targeted scraping of Moss venues...
+2025-08-26 09:20:16,225 - INFO - 🎪 Scraping Moss Kulturhus...
+2025-08-26 09:20:16,225 - INFO - URLs to scrape: ['https://www.mosskulturhus.no/program', 'https://www.mosskulturhus.no/arrangementer']
+2025-08-26 09:20:16,225 - INFO - Fetching HTML from https://www.mosskulturhus.no/program
+2025-08-26 09:20:16,977 - INFO - Extracted 60 events from HTML
+2025-08-26 09:20:16,978 - INFO - Fetching HTML from https://www.mosskulturhus.no/arrangementer
+2025-08-26 09:20:21,760 - ERROR - [Moss Kulturhus] Error scraping HTML: RetryError[<Future at 0x7f6e37205780 state=finished raised HTTPStatusError>]
+2025-08-26 09:20:21,760 - INFO - ✅ Found 60 events from Moss Kulturhus
+2025-08-26 09:20:21,761 - INFO -   - Compagniet – Moss bluesklubb at Samfunnshuset on 2025-08-30 00:00:00+00:00
+2025-08-26 09:20:21,761 - INFO -   - Natalie Aldema duo – Kafé 67+ at Samfunnshuset on 2025-09-02 00:00:00+00:00
+2025-08-26 09:20:21,761 - INFO -   - Verdiløse menn – En Jokke-mussikal at Parkteatret on 2025-09-02 00:00:00+00:00
+2025-08-26 09:20:21,761 - INFO -   - Juliet & Romeo – Nonstopfestivalen at Parkteatret on 2025-09-17 00:00:00+00:00
+2025-08-26 09:20:21,761 - INFO -   - Festivalpass – Nonstop Internasjonale teaterfestival 2025 at Moss on 2025-09-17 00:00:00+00:00
+2025-08-26 09:20:21,761 - INFO -   - Frys – Nonstopfestivalen at Samfunnshuset on 2025-09-17 00:00:00+00:00
+2025-08-26 09:20:21,761 - INFO -   - Alex Barti Show – Nonstopfestivalen at Parkteatret on 2025-09-18 00:00:00+00:00
+2025-08-26 09:20:21,761 - INFO -   - I morgen var jeg alltid en løve – Nonstopfestivalen at House Of Foundation on 2025-09-18 00:00:00+00:00
+2025-08-26 09:20:21,761 - INFO -   - Piste, Piste, Piste – Nonstopfestivalen at Samfunnshuset on 2025-09-19 00:00:00+00:00
+2025-08-26 09:20:21,761 - INFO -   - Forbrytar og straff – Nonstopfestivalen at Parkteatret on 2025-09-19 00:00:00+00:00
+2025-08-26 09:20:21,761 - INFO -   - Double bill – Nonstopfestivalen at Samfunnshuset on 2025-09-20 00:00:00+00:00
+2025-08-26 09:20:21,761 - INFO -   - Mondo – Nonstopfestivalen at Parkteatret on 2025-09-20 00:00:00+00:00
+2025-08-26 09:20:21,761 - INFO -   - Riksteatret: Legenden om Narnia – Løven, heksa og klesskapet at Parkteatret on 2025-09-21 00:00:00+00:00
+2025-08-26 09:20:21,761 - INFO -   - Jeg er vinden – Nonstopfestivalen at Moss Kirke on 2025-09-21 00:00:00+00:00
+2025-08-26 09:20:21,761 - INFO -   - Annerledes og Stolt! at Parkteatret on 2025-09-24 00:00:00+00:00
+2025-08-26 09:20:21,761 - INFO -   - Dora Thorhallsdottir – LIVET ass… at Parkteatret on 2025-10-03 00:00:00+00:00
+2025-08-26 09:20:21,761 - INFO -   - Bluesdronningen Rita Engedalen – Moss bluesklubb at Samfunnshuset on 2025-10-04 00:00:00+00:00
+2025-08-26 09:20:21,762 - INFO -   - Kunstskatter i Nasjonalmuseet – Kafe´ 67+ at Samfunnshuset on 2025-10-07 00:00:00+00:00
+2025-08-26 09:20:21,762 - INFO -   - Adam Douglas at Parkteatret on 2025-10-09 00:00:00+00:00
+2025-08-26 09:20:21,762 - INFO -   - Best of The Beatles at Parkteatret on 2025-10-10 00:00:00+00:00
+2025-08-26 09:20:21,762 - INFO -   - Ørjan Burøe – Greatest Vits at Parkteatret on 2025-10-11 00:00:00+00:00
+2025-08-26 09:20:21,762 - INFO -   - HØYTRYKK – 10 årsjubileum at Samfunnshuset on 2010-10-25 00:00:00+00:00
+2025-08-26 09:20:21,762 - INFO -   - DNBE + Sanne Kvitnes at Parkteatret on 2025-10-28 00:00:00+00:00
+2025-08-26 09:20:21,762 - INFO -   - Skadefryd – Dag Sørås at Parkteatret on 2025-10-31 00:00:00+00:00
+2025-08-26 09:20:21,762 - INFO -   - Anita Nordheim Blues n’ Groove Company – Moss bluesklubb at Samfunnshuset on 2025-11-01 00:00:00+00:00
+2025-08-26 09:20:21,762 - INFO -   - Showkonsert Heine Totland og Karianne Kjærnes med Moss Big Band at Parkteatret on 2025-11-01 00:00:00+00:00
+2025-08-26 09:20:21,762 - INFO -   - Riksteatret: Ord for blod at Parkteatret on 2025-11-02 00:00:00+00:00
+2025-08-26 09:20:21,762 - INFO -   - Hanna Paulsberg – Do you want my job? – Moss Jazzklubb at Samfunnshuset on 2025-11-07 00:00:00+00:00
+2025-08-26 09:20:21,762 - INFO -   - LifeGame – Østfold internasjonale teater at Samfunnshuset on 2025-11-08 00:00:00+00:00
+2025-08-26 09:20:21,762 - INFO -   - Folk og røvere i kardemomme by at Parkteatret on 2025-11-09 00:00:00+00:00
+2025-08-26 09:20:21,762 - INFO -   - Folk og røvere i kardemomme by – Ekstraforestilling! at Parkteatret on 2025-11-09 00:00:00+00:00
+2025-08-26 09:20:21,762 - INFO -   - Koht, håp og glede at Parkteatret on 2025-11-12 00:00:00+00:00
+2025-08-26 09:20:21,762 - INFO -   - Maja Lunde – Skjerm barna at Parkteatret on 2025-11-13 00:00:00+00:00
+2025-08-26 09:20:21,762 - INFO -   - Kristin Harila – Den ultimate triumfen og tragedien som fulgte at Parkteatret on 2025-11-14 00:00:00+00:00
+2025-08-26 09:20:21,763 - INFO -   - Blått og godt – Moss bluesklubb at Samfunnshuset on 2025-11-15 00:00:00+00:00
+2025-08-26 09:20:21,763 - INFO -   - Janneloven – Et One Woman Show at Parkteatret on 2025-11-22 00:00:00+00:00
+2025-08-26 09:20:21,763 - INFO -   - Bak lukkede dører – De syke og farlige blant oss – Foredrag med Randi Rosenquist at Parkteatret on 2025-11-25 00:00:00+00:00
+2025-08-26 09:20:21,763 - INFO -   - Tøyser jula inn at Parkteatret on 2025-11-27 00:00:00+00:00
+2025-08-26 09:20:21,763 - INFO -   - Silje Nergaard med band – Moss jazzklubb at Parkteatret on 2025-11-28 00:00:00+00:00
+2025-08-26 09:20:21,763 - INFO -   - J.T.Lauritsen & The Buckshot Hunters – Moss bluesklubb at Samfunnshuset on 2025-11-29 00:00:00+00:00
+2025-08-26 09:20:21,763 - INFO -   - Bjørn & Bjarte, den tøffe & den sarte. at Parkteatret on 2025-11-29 00:00:00+00:00
+2025-08-26 09:20:21,763 - INFO -   - Christmas With Nordic Tenors 2025 at Parkteatret on 2025-11-30 00:00:00+00:00
+2025-08-26 09:20:21,763 - INFO -   - Didrik Solli -Tangen – O Helga Natt at Parkteatret on 2025-12-03 00:00:00+00:00
+2025-08-26 09:20:21,763 - INFO -   - Dr Bergland – På liv og død – 2025 at Parkteatret on 2025-12-05 00:00:00+00:00
+2025-08-26 09:20:21,763 - INFO -   - Stjernenatt – Odd René Andersen at Parkteatret on 2025-12-06 00:00:00+00:00
+2025-08-26 09:20:21,763 - INFO -   - DNBE + Solveig Slettahjell : Julekonsert at Parkteatret on 2025-12-10 00:00:00+00:00
+2025-08-26 09:20:21,763 - INFO -   - Dagfinn Lyngbø – folk – 2025 at Parkteatret on 2025-12-11 00:00:00+00:00
+2025-08-26 09:20:21,763 - INFO -   - Nøtteknekkeren – Klassisk juleballett at Parkteatret on 2025-12-12 00:00:00+00:00
+2025-08-26 09:20:21,763 - INFO -   - Symfonica at Parkteatret on 2025-12-14 00:00:00+00:00
+2025-08-26 09:20:21,763 - INFO -   - Julefest – med Anders Baasmo, Reidun Sæther og Trond Nagell-Dahl at Parkteatret on 2025-12-17 00:00:00+00:00
+2025-08-26 09:20:21,763 - INFO -   - Julekonsert med Chris Medina, Alejandro Fuentes og Eirik Næss at Parkteatret on 2025-12-18 00:00:00+00:00
+2025-08-26 09:20:21,763 - INFO -   - Reisen til julestjernen at Parkteatret on 2025-12-19 00:00:00+00:00
+2025-08-26 09:20:21,764 - INFO -   - Ringe inn – Maria Haukaas Mittet & Lars Bremnes at Parkteatret on 2025-12-21 00:00:00+00:00
+2025-08-26 09:20:21,764 - INFO -   - Nyttårskonsert med DNBE at Parkteatret on 2025-01-14 00:00:00+00:00
+2025-08-26 09:20:21,764 - INFO -   - Anders Jektvik at Samfunnshuset on 2025-01-24 00:00:00+00:00
+2025-08-26 09:20:21,764 - INFO -   - Melissa Horn at Parkteatret on 2025-01-29 00:00:00+00:00
+2025-08-26 09:20:21,764 - INFO -   - Evig Ung at Parkteatret on 2025-01-30 00:00:00+00:00
+2025-08-26 09:20:21,764 - INFO -   - Riksteatret: Læreren at Parkteatret on 2025-04-15 00:00:00+00:00
+2025-08-26 09:20:21,764 - INFO -   - Vamp at Parkteatret on 2025-04-17 00:00:00+00:00
+2025-08-26 09:20:21,764 - INFO -   - Riksteatret: Skorpionens spill – I skyggen av Roblox at Parkteatret on 2025-05-26 00:00:00+00:00
+2025-08-26 09:20:21,764 - INFO - 🎬 Scraping Verket Scene...
+2025-08-26 09:20:21,764 - INFO - URLs to scrape: ['https://www.verketscene.no/', 'https://www.verketscene.no/program', 'https://www.verketscene.no/konserter']
+2025-08-26 09:20:21,764 - INFO - Fetching HTML from https://www.verketscene.no/
+2025-08-26 09:20:25,450 - ERROR - [Verket Scene] Error scraping HTML: RetryError[<Future at 0x7f6e37219240 state=finished raised RequestError>]
+2025-08-26 09:20:25,450 - INFO - Fetching HTML from https://www.verketscene.no/program
+2025-08-26 09:20:29,055 - ERROR - [Verket Scene] Error scraping HTML: RetryError[<Future at 0x7f6e372193c0 state=finished raised RequestError>]
+2025-08-26 09:20:29,056 - INFO - Fetching HTML from https://www.verketscene.no/konserter
+2025-08-26 09:20:32,663 - ERROR - [Verket Scene] Error scraping HTML: RetryError[<Future at 0x7f6e37219600 state=finished raised RequestError>]
+2025-08-26 09:20:32,663 - INFO - ✅ Found 0 events from Verket Scene
+2025-08-26 09:20:32,664 - INFO - 💾 Saving 60 events to database...
+2025-08-26 09:20:32,664 - INFO - Initializing database...
+2025-08-26 09:20:32,672 - INFO - Database initialized at events.db
+❌ Failed to scrape events: log_error() missing 1 required positional argument: 'message'

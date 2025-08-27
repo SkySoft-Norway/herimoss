@@ -1,0 +1,510 @@
+Wed Aug 27 02:42:30 PM CEST 2025: Starting automatic Moss event update...
+2025-08-27 14:42:30,919 - INFO - 🚀 Starting Moss Event Crawler with Ticketmaster integration...
+2025-08-27 14:42:30,919 - INFO - Initializing database...
+2025-08-27 14:42:30,921 - INFO - Database initialized at events.db
+2025-08-27 14:42:30,922 - INFO - 📊 Database initialized
+2025-08-27 14:42:30,922 - INFO - 🎫 Starting Ticketmaster API crawl (radius: 20km)
+2025-08-27 14:42:30,922 - INFO - Starting Ticketmaster API integration for Moss events
+2025-08-27 14:42:30,927 - INFO - Fetching Ticketmaster events for Moss (radius: 20km)
+2025-08-27 14:42:31,155 - INFO - Found 42 events with params: {'city': 'Moss', 'countryCode': 'NO', 'size': 100, 'apikey': 'Nk8JssgemqCFn9CL7YI8ZIiGk9cLFFNV', 'locale': 'no-no'}
+2025-08-27 14:42:31,213 - INFO - Found 54 events with params: {'geoPoint': '59.4369,10.6567', 'radius': '20', 'unit': 'km', 'size': 100, 'apikey': 'Nk8JssgemqCFn9CL7YI8ZIiGk9cLFFNV', 'locale': 'no-no'}
+2025-08-27 14:42:31,283 - WARNING - Ticketmaster rate limit exceeded, waiting 5s
+2025-08-27 14:42:36,349 - INFO - Found 38 events with params: {'venueId': 'Z698xZb_Za7Ia', 'size': 100, 'apikey': 'Nk8JssgemqCFn9CL7YI8ZIiGk9cLFFNV', 'locale': 'no-no'}
+2025-08-27 14:42:36,440 - INFO - Found 0 events with params: {'venueId': 'Z698xZb_ZaAE-', 'size': 100, 'apikey': 'Nk8JssgemqCFn9CL7YI8ZIiGk9cLFFNV', 'locale': 'no-no'}
+2025-08-27 14:42:36,440 - INFO - Total unique Ticketmaster events found: 54
+2025-08-27 14:42:36,445 - INFO - Successfully converted 54 Ticketmaster events
+2025-08-27 14:42:36,446 - INFO - ✅ Fetched 54 events from Ticketmaster
+2025-08-27 14:42:36,446 - INFO - 📰 Starting legacy source crawling...
+2025-08-27 14:42:36,589 - INFO - 🔄 Running Moss Kulturhus scraper...
+INFO:moss_kulturkalender:🔄 Running Moss Kulturhus scraper...
+2025-08-30T16:00:00 | Samfunnshuset | Compagniet – Moss bluesklubb -> https://www.mosskulturhus.no/event/compagniet-moss-bluesklubb/ price=kr 325,- (medlem 275,-)
+2025-09-02T13:00:00 | Samfunnshuset | Natalie Aldema duo – Kafé 67+ -> https://www.mosskulturhus.no/event/natalie-aldema-duo-kafe-67/ price=None
+2025-09-02T19:00:00 | Parkteatret | Verdiløse menn – En Jokke-mussikal -> https://www.mosskulturhus.no/event/verdilose-menn-en-jokke-mussikal/ price=kr 780,-
+2025-09-17T17:00:00 | Parkteatret | Juliet & Romeo – Nonstopfestivalen -> https://www.mosskulturhus.no/event/juliet-romeo-nonstopfestivalen/ price=kr 480,-
+2025-09-17T19:00:00 | Moss | Festivalpass – Nonstop Internasjonale teaterfestival 2025 -> https://www.mosskulturhus.no/event/festivalpass-nonstop-internasjonale-teaterfestival-2025/ price=kr 990,-
+2025-09-17T19:15:00 | Samfunnshuset | Frys – Nonstopfestivalen -> https://www.mosskulturhus.no/event/frys-nonstopfestivalen/ price=kr 325,-
+2025-09-18T20:00:00 | Parkteatret | Alex Barti Show – Nonstopfestivalen -> https://www.mosskulturhus.no/event/alex-barti-show-nonstopfestivalen/ price=kr 300,-
+2025-09-18T21:00:00 | House of Foundation | I morgen var jeg alltid en løve – Nonstopfestivalen -> https://www.mosskulturhus.no/event/i-morgen-var-jeg-alltid-en-love-nonstopfestivalen/ price=kr 325,-
+2025-09-19T18:00:00 | Samfunnshuset | Piste, Piste, Piste – Nonstopfestivalen -> https://www.mosskulturhus.no/event/piste-piste-piste-nonstopfestivalen/ price=kr 300,-
+2025-09-19T19:00:00 | Parkteatret | Forbrytar og straff – Nonstopfestivalen -> https://www.mosskulturhus.no/event/forbrytar-og-straff-nonstopfestivalen/ price=kr 375,-
+2025-09-20T14:00:00 | Samfunnshuset | Double bill – Nonstopfestivalen -> https://www.mosskulturhus.no/event/double-bill-nonstopfestivalen/ price=kr 275,-
+2025-09-20T18:00:00 | Parkteatret | Mondo – Nonstopfestivalen -> https://www.mosskulturhus.no/event/mondo-nonstopfestivalen/ price=kr 425,-
+2025-09-21T17:00:00 | Parkteatret | Riksteatret: Legenden om Narnia – Løven, heksa og klesskapet -> https://www.mosskulturhus.no/event/riksteatret-legenden-om-narnia-loven-heksa-og-klesskapet/ price=kr 315,-
+2025-09-21T19:00:00 | Moss Kirke | Jeg er vinden – Nonstopfestivalen -> https://www.mosskulturhus.no/event/jeg-er-vinden-nonstopfestivalen/ price=kr 325,-
+2025-09-24T18:30:00 | Parkteatret | Annerledes og Stolt! -> https://www.mosskulturhus.no/event/annerledes-og-stolt/ price=None
+2025-10-03T19:00:00 | Parkteatret | Dora Thorhallsdottir – LIVET ass… -> https://www.mosskulturhus.no/event/dora-thorhallsdottir-livet-ass/ price=kr 485,-
+2025-10-04T16:00:00 | Samfunnshuset | Bluesdronningen Rita Engedalen – Moss bluesklubb -> https://www.mosskulturhus.no/event/bluesdronningen-rita-engedalen-moss-bluesklubb/ price=kr 325,- (medlem 275,-)
+2025-10-07T13:00:00 | Samfunnshuset | Kunstskatter i Nasjonalmuseet – Kafe´ 67+ -> https://www.mosskulturhus.no/event/kunstskatter-i-nasjonalmuseet-kafe-67/ price=None
+2025-10-09T19:00:00 | Parkteatret | Adam Douglas -> https://www.mosskulturhus.no/event/adam-douglas/ price=kr 510,-
+2025-10-10T19:00:00 | Parkteatret | Best of The Beatles -> https://www.mosskulturhus.no/event/best-of-the-beatles/ price=kr 580,-
+2025-10-11T19:00:00 | Parkteatret | Ørjan Burøe – Greatest Vits -> https://www.mosskulturhus.no/event/orjan-buroe-greatest-vits/ price=kr 420,-
+2025-10-17T18:00:00 | Samfunnshuset | Fiin Årgang – Søt og salig – Premiere -> https://www.mosskulturhus.no/event/fiin-argang-sot-og-salig-premiere/ price=kr 300,-
+2025-10-18T18:00:00 | Parkteatret | Peter Pan – Et musikalsk eventyr -> https://www.mosskulturhus.no/event/peter-pan-et-musikalsk-eventyr/ price=kr 345,-
+2025-10-25T20:00:00 | Samfunnshuset | HØYTRYKK – 10 årsjubileum -> https://www.mosskulturhus.no/event/hoytrykk-10-arsjubileum/ price=kr 300,-
+2025-10-28T19:00:00 | Parkteatret | DNBE + Sanne Kvitnes -> https://www.mosskulturhus.no/event/dnbe-sanne-kvitnes/ price=kr 385,-
+2025-10-31T19:00:00 | Parkteatret | Skadefryd – Dag Sørås -> https://www.mosskulturhus.no/event/skadefryd-dag-soras/ price=kr 525,-
+2025-11-01T16:00:00 | Samfunnshuset | Anita Nordheim Blues n’ Groove Company – Moss bluesklubb -> https://www.mosskulturhus.no/event/anita-nordheim-blues-n-groove-company-moss-bluesklubb/ price=kr 325,- (medlem 275,-)
+2025-11-01T19:00:00 | Parkteatret | Showkonsert Heine Totland og Karianne Kjærnes med Moss Big Band -> https://www.mosskulturhus.no/event/showkonsert-heine-totland-og-karianne-kjaernes-med-moss-big-band/ price=kr 375,- (medlem 325,-)
+2025-11-02T18:00:00 | Parkteatret | Riksteatret: Ord for blod -> https://www.mosskulturhus.no/event/riksteatret-ord-for-blod/ price=kr 455,-
+2025-11-07T19:00:00 | Samfunnshuset | Hanna Paulsberg – Do you want my job?  – Moss Jazzklubb -> https://www.mosskulturhus.no/event/hanna-paulsberg-do-you-want-my-job-moss-jazzklubb/ price=kr 375,- (medlem 275,-)
+2025-11-08T19:00:00 | Samfunnshuset | LifeGame – Østfold internasjonale teater -> https://www.mosskulturhus.no/event/lifegame-ostfold-internasjonale-teater/ price=kr 375,-
+2025-11-09T13:00:00 | Parkteatret | Folk og røvere i kardemomme by -> https://www.mosskulturhus.no/event/folk-og-rovere-i-kardemomme-by/ price=kr 450,-
+2025-11-09T16:00:00 | Parkteatret | Folk og røvere i kardemomme by – Ekstraforestilling! -> https://www.mosskulturhus.no/event/folk-og-rovere-i-kardemomme-by-ekstraforestilling/ price=kr 450,-
+2025-11-12T19:00:00 | Parkteatret | Koht, håp og glede -> https://www.mosskulturhus.no/event/koht-hap-og-glede/ price=kr 445,-
+2025-11-13T19:00:00 | Parkteatret | Maja Lunde – Skjerm barna -> https://www.mosskulturhus.no/event/maja-lunde-skjerm-barna/ price=kr 315,-
+2025-11-14T19:00:00 | Parkteatret | Kristin Harila – Den ultimate triumfen og tragedien som fulgte -> https://www.mosskulturhus.no/event/kristin-harila-den-ultimate-triumfen-og-tragedien-som-fulgte/ price=kr 525,-
+2025-11-15T16:00:00 | Samfunnshuset | Blått og godt – Moss bluesklubb -> https://www.mosskulturhus.no/event/blatt-og-godt-moss-bluesklubb/ price=kr 325,- (medlem 275,-)
+2025-11-15T18:00:00 | Parkteatret | Riksteatret: Drømmen om en hvit jul -> https://www.mosskulturhus.no/event/riksteatret-drommen-om-en-hvit-jul/ price=kr 490,-
+2025-11-22T19:00:00 | Parkteatret | Janneloven – Et One Woman Show -> https://www.mosskulturhus.no/event/janneloven-et-one-woman-show/ price=kr 485,-
+2025-11-25T19:00:00 | Parkteatret | Bak lukkede dører – De syke og farlige blant oss – Foredrag med Randi Rosenquist -> https://www.mosskulturhus.no/event/bak-lukkede-dorer-de-syke-og-farlige-blant-oss-foredrag-med-randi-rosenquist/ price=kr 440,-
+2025-11-27T18:30:00 | Parkteatret | Tøyser jula inn -> https://www.mosskulturhus.no/event/toyser-jula-inn/ price=kr 560,-
+2025-11-28T19:00:00 | Parkteatret | Silje Nergaard med band – Moss jazzklubb -> https://www.mosskulturhus.no/event/silje-nergaard-med-band-moss-jazzklubb/ price=kr 490,- (medlem 390,-)
+2025-11-29T16:00:00 | Samfunnshuset | J.T.Lauritsen & The Buckshot Hunters – Moss bluesklubb -> https://www.mosskulturhus.no/event/j-t-lauritsen-the-buckshot-hunters-moss-bluesklubb/ price=kr 325,- (medlem 275,-)
+2025-11-29T19:00:00 | Parkteatret | Bjørn & Bjarte, den tøffe & den sarte. -> https://www.mosskulturhus.no/event/bjorn-bjarte-den-toffe-den-sarte/ price=kr 610,-
+2025-11-30T18:00:00 | Parkteatret | Christmas With Nordic Tenors 2025 -> https://www.mosskulturhus.no/event/christmas-with-nordic-tenors-2025/ price=kr 630,-
+2025-12-03T19:00:00 | Parkteatret | Didrik Solli -Tangen – O Helga Natt -> https://www.mosskulturhus.no/event/didrik-solli-tangen-o-helga-natt/ price=kr 695,-
+2025-12-05T19:00:00 | Parkteatret | Dr Bergland – På liv og død – 2025 -> https://www.mosskulturhus.no/event/dr-bergland-pa-liv-og-dod-2025/ price=kr 525,-
+2025-12-06T19:00:00 | Parkteatret | Stjernenatt – Odd René Andersen -> https://www.mosskulturhus.no/event/stjernenatt-odd-rene-andersen/ price=kr 630,-
+INFO:root:Saved 66 events to /var/www/vhosts/herimoss.no/pythoncrawler/mosskulturhus_events.json (detail=True offline=True)
+2025-08-27 14:42:52,455 - INFO - 🏛️  Moss Kulturhus: 66 events
+INFO:moss_kulturkalender:🏛️  Moss Kulturhus: 66 events
+2025-08-27 14:42:52,456 - WARNING - legacy_scraper
+WARNING:moss_kulturkalender:legacy_scraper
+2025-08-27 14:42:52,456 - WARNING - legacy_scraper
+WARNING:moss_kulturkalender:legacy_scraper
+2025-08-27 14:42:52,477 - INFO - 🔄 Running Moss Bibliotekene scraper...
+INFO:moss_kulturkalender:🔄 Running Moss Bibliotekene scraper...
+2025-08-27 14:42:52,477 - INFO - 📚 Scraping Moss Bibliotekene page 1
+INFO:moss_kulturkalender:📚 Scraping Moss Bibliotekene page 1
+2025-08-27 14:42:52,477 - INFO - Using Playwright to fetch: https://www.mossebibliotekene.no/arrangementer
+INFO:moss_kulturkalender:Using Playwright to fetch: https://www.mossebibliotekene.no/arrangementer
+2025-08-27 14:42:53,838 - INFO - Events loaded successfully
+INFO:moss_kulturkalender:Events loaded successfully
+2025-08-27 14:42:53,883 - INFO - Successfully retrieved page content with Playwright (164518 chars)
+INFO:moss_kulturkalender:Successfully retrieved page content with Playwright (164518 chars)
+2025-08-27 14:42:53,950 - INFO - Using selector '.views-row' - found 10 elements
+INFO:moss_kulturkalender:Using selector '.views-row' - found 10 elements
+2025-08-27 14:42:53,950 - INFO - Found 10 event cards using primary selectors
+INFO:moss_kulturkalender:Found 10 event cards using primary selectors
+2025-08-27 14:42:53,954 - INFO - DEBUG: Successfully parsed date: 2025-08-27 13:00:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-08-27 13:00:00
+2025-08-27 14:42:53,955 - INFO - Successfully extracted event: Språkkafé på Moss bibliotek...
+INFO:moss_kulturkalender:Successfully extracted event: Språkkafé på Moss bibliotek...
+2025-08-27 14:42:53,958 - INFO - DEBUG: Successfully parsed date: 2025-08-28 11:00:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-08-28 11:00:00
+2025-08-27 14:42:53,959 - INFO - Successfully extracted event: Levende lydbok med Bente Holar...
+INFO:moss_kulturkalender:Successfully extracted event: Levende lydbok med Bente Holar...
+2025-08-27 14:42:53,962 - INFO - DEBUG: Successfully parsed date: 2025-08-28 16:30:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-08-28 16:30:00
+2025-08-27 14:42:53,963 - INFO - Successfully extracted event: Advokatvakten på Moss bibliotek...
+INFO:moss_kulturkalender:Successfully extracted event: Advokatvakten på Moss bibliotek...
+2025-08-27 14:42:53,966 - INFO - DEBUG: Successfully parsed date: 2025-09-01 17:00:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-09-01 17:00:00
+2025-08-27 14:42:53,967 - INFO - Successfully extracted event: Slektsforskning på Moss bibliotek...
+INFO:moss_kulturkalender:Successfully extracted event: Slektsforskning på Moss bibliotek...
+2025-08-27 14:42:53,970 - INFO - DEBUG: Successfully parsed date: 2025-09-02 17:00:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-09-02 17:00:00
+2025-08-27 14:42:53,972 - INFO - Successfully extracted event: Kinotek: Chihiro og heksene...
+INFO:moss_kulturkalender:Successfully extracted event: Kinotek: Chihiro og heksene...
+2025-08-27 14:42:53,976 - INFO - DEBUG: Successfully parsed date: 2025-09-03 13:00:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-09-03 13:00:00
+2025-08-27 14:42:53,977 - INFO - Successfully extracted event: Språkkafé på Moss bibliotek...
+INFO:moss_kulturkalender:Successfully extracted event: Språkkafé på Moss bibliotek...
+2025-08-27 14:42:53,980 - INFO - DEBUG: Successfully parsed date: 2025-09-03 18:00:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-09-03 18:00:00
+2025-08-27 14:42:53,981 - INFO - Successfully extracted event: Japanhøst 2025: Donasjonsseremoni...
+INFO:moss_kulturkalender:Successfully extracted event: Japanhøst 2025: Donasjonsseremoni...
+2025-08-27 14:42:53,984 - INFO - DEBUG: Successfully parsed date: 2025-09-04 16:30:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-09-04 16:30:00
+2025-08-27 14:42:53,985 - INFO - Successfully extracted event: Advokatvakten på Moss bibliotek...
+INFO:moss_kulturkalender:Successfully extracted event: Advokatvakten på Moss bibliotek...
+2025-08-27 14:42:53,988 - INFO - DEBUG: Successfully parsed date: 2025-09-05 11:30:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-09-05 11:30:00
+2025-08-27 14:42:53,988 - INFO - Successfully extracted event: Bibliotekets bokkafe...
+INFO:moss_kulturkalender:Successfully extracted event: Bibliotekets bokkafe...
+2025-08-27 14:42:53,992 - INFO - DEBUG: Successfully parsed date: 2025-09-08 19:00:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-09-08 19:00:00
+2025-08-27 14:42:53,992 - INFO - Successfully extracted event: Sitt og lytt...
+INFO:moss_kulturkalender:Successfully extracted event: Sitt og lytt...
+2025-08-27 14:42:53,992 - INFO - Successfully extracted 10 events from page 1
+INFO:moss_kulturkalender:Successfully extracted 10 events from page 1
+2025-08-27 14:42:55,994 - INFO - 📚 Scraping Moss Bibliotekene page 2
+INFO:moss_kulturkalender:📚 Scraping Moss Bibliotekene page 2
+2025-08-27 14:42:55,994 - INFO - Using Playwright to fetch: https://www.mossebibliotekene.no/arrangementer?page=2
+INFO:moss_kulturkalender:Using Playwright to fetch: https://www.mossebibliotekene.no/arrangementer?page=2
+2025-08-27 14:42:57,239 - INFO - Events loaded successfully
+INFO:moss_kulturkalender:Events loaded successfully
+2025-08-27 14:42:57,287 - INFO - Successfully retrieved page content with Playwright (165198 chars)
+INFO:moss_kulturkalender:Successfully retrieved page content with Playwright (165198 chars)
+2025-08-27 14:42:57,336 - INFO - Using selector '.views-row' - found 10 elements
+INFO:moss_kulturkalender:Using selector '.views-row' - found 10 elements
+2025-08-27 14:42:57,336 - INFO - Found 10 event cards using primary selectors
+INFO:moss_kulturkalender:Found 10 event cards using primary selectors
+2025-08-27 14:42:57,339 - INFO - DEBUG: Successfully parsed date: 2025-09-25 11:00:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-09-25 11:00:00
+2025-08-27 14:42:57,340 - INFO - Successfully extracted event: Levende lydbok med Bente Holar...
+INFO:moss_kulturkalender:Successfully extracted event: Levende lydbok med Bente Holar...
+2025-08-27 14:42:57,343 - INFO - DEBUG: Successfully parsed date: 2025-09-25 16:30:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-09-25 16:30:00
+2025-08-27 14:42:57,344 - INFO - Successfully extracted event: Advokatvakten på Moss bibliotek...
+INFO:moss_kulturkalender:Successfully extracted event: Advokatvakten på Moss bibliotek...
+2025-08-27 14:42:57,347 - INFO - DEBUG: Successfully parsed date: 2025-10-01 13:00:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-10-01 13:00:00
+2025-08-27 14:42:57,348 - INFO - Successfully extracted event: Språkkafé på Moss bibliotek...
+INFO:moss_kulturkalender:Successfully extracted event: Språkkafé på Moss bibliotek...
+2025-08-27 14:42:57,351 - INFO - DEBUG: Successfully parsed date: 2025-10-02 16:30:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-10-02 16:30:00
+2025-08-27 14:42:57,351 - INFO - Successfully extracted event: Advokatvakten på Moss bibliotek...
+INFO:moss_kulturkalender:Successfully extracted event: Advokatvakten på Moss bibliotek...
+2025-08-27 14:42:57,355 - INFO - DEBUG: Successfully parsed date: 2025-10-02 19:00:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-10-02 19:00:00
+2025-08-27 14:42:57,355 - INFO - Successfully extracted event: Alf van der Hagen om Dag Solstad: Uskrevne memoare...
+INFO:moss_kulturkalender:Successfully extracted event: Alf van der Hagen om Dag Solstad: Uskrevne memoare...
+2025-08-27 14:42:57,358 - INFO - DEBUG: Successfully parsed date: 2025-10-03 11:30:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-10-03 11:30:00
+2025-08-27 14:42:57,359 - INFO - Successfully extracted event: Bibliotekets bokkafe...
+INFO:moss_kulturkalender:Successfully extracted event: Bibliotekets bokkafe...
+2025-08-27 14:42:57,362 - INFO - DEBUG: Successfully parsed date: 2025-10-06 17:00:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-10-06 17:00:00
+2025-08-27 14:42:57,363 - INFO - Successfully extracted event: Slektsforskning på Moss bibliotek...
+INFO:moss_kulturkalender:Successfully extracted event: Slektsforskning på Moss bibliotek...
+2025-08-27 14:42:57,366 - INFO - DEBUG: Successfully parsed date: 2025-10-06 19:00:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-10-06 19:00:00
+2025-08-27 14:42:57,367 - INFO - Successfully extracted event: Sitt og lytt...
+INFO:moss_kulturkalender:Successfully extracted event: Sitt og lytt...
+2025-08-27 14:42:57,370 - INFO - DEBUG: Successfully parsed date: 2025-10-07 17:00:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-10-07 17:00:00
+2025-08-27 14:42:57,371 - INFO - Successfully extracted event: Kinotek: Prinsesse Mononoke...
+INFO:moss_kulturkalender:Successfully extracted event: Kinotek: Prinsesse Mononoke...
+2025-08-27 14:42:57,374 - INFO - DEBUG: Successfully parsed date: 2025-10-08 13:00:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-10-08 13:00:00
+2025-08-27 14:42:57,375 - INFO - Successfully extracted event: Språkkafé på Moss bibliotek...
+INFO:moss_kulturkalender:Successfully extracted event: Språkkafé på Moss bibliotek...
+2025-08-27 14:42:57,375 - INFO - Successfully extracted 10 events from page 2
+INFO:moss_kulturkalender:Successfully extracted 10 events from page 2
+2025-08-27 14:42:59,376 - INFO - 📚 Scraping Moss Bibliotekene page 3
+INFO:moss_kulturkalender:📚 Scraping Moss Bibliotekene page 3
+2025-08-27 14:42:59,377 - INFO - Using Playwright to fetch: https://www.mossebibliotekene.no/arrangementer?page=3
+INFO:moss_kulturkalender:Using Playwright to fetch: https://www.mossebibliotekene.no/arrangementer?page=3
+2025-08-27 14:43:00,749 - INFO - Events loaded successfully
+INFO:moss_kulturkalender:Events loaded successfully
+2025-08-27 14:43:00,808 - INFO - Successfully retrieved page content with Playwright (164824 chars)
+INFO:moss_kulturkalender:Successfully retrieved page content with Playwright (164824 chars)
+2025-08-27 14:43:00,867 - INFO - Using selector '.views-row' - found 10 elements
+INFO:moss_kulturkalender:Using selector '.views-row' - found 10 elements
+2025-08-27 14:43:00,867 - INFO - Found 10 event cards using primary selectors
+INFO:moss_kulturkalender:Found 10 event cards using primary selectors
+2025-08-27 14:43:00,870 - INFO - DEBUG: Successfully parsed date: 2025-10-09 16:30:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-10-09 16:30:00
+2025-08-27 14:43:00,871 - INFO - Successfully extracted event: Advokatvakten på Moss bibliotek...
+INFO:moss_kulturkalender:Successfully extracted event: Advokatvakten på Moss bibliotek...
+2025-08-27 14:43:00,874 - INFO - DEBUG: Successfully parsed date: 2025-10-15 11:30:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-10-15 11:30:00
+2025-08-27 14:43:00,875 - INFO - Successfully extracted event: Litterær matpakke på Rygge bibliotek...
+INFO:moss_kulturkalender:Successfully extracted event: Litterær matpakke på Rygge bibliotek...
+2025-08-27 14:43:00,878 - INFO - DEBUG: Successfully parsed date: 2025-10-15 13:00:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-10-15 13:00:00
+2025-08-27 14:43:00,879 - INFO - Successfully extracted event: Språkkafé på Moss bibliotek...
+INFO:moss_kulturkalender:Successfully extracted event: Språkkafé på Moss bibliotek...
+2025-08-27 14:43:00,882 - INFO - DEBUG: Successfully parsed date: 2025-10-16 16:30:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-10-16 16:30:00
+2025-08-27 14:43:00,883 - INFO - Successfully extracted event: Advokatvakten på Moss bibliotek...
+INFO:moss_kulturkalender:Successfully extracted event: Advokatvakten på Moss bibliotek...
+2025-08-27 14:43:00,886 - INFO - DEBUG: Successfully parsed date: 2025-10-20 19:00:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-10-20 19:00:00
+2025-08-27 14:43:00,887 - INFO - Successfully extracted event: Sitt og lytt...
+INFO:moss_kulturkalender:Successfully extracted event: Sitt og lytt...
+2025-08-27 14:43:00,890 - INFO - DEBUG: Successfully parsed date: 2025-10-22 11:30:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-10-22 11:30:00
+2025-08-27 14:43:00,891 - INFO - Successfully extracted event: Litterær onsdag på Moss bibliotek...
+INFO:moss_kulturkalender:Successfully extracted event: Litterær onsdag på Moss bibliotek...
+2025-08-27 14:43:00,894 - INFO - DEBUG: Successfully parsed date: 2025-10-22 13:00:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-10-22 13:00:00
+2025-08-27 14:43:00,894 - INFO - Successfully extracted event: Språkkafé på Moss bibliotek...
+INFO:moss_kulturkalender:Successfully extracted event: Språkkafé på Moss bibliotek...
+2025-08-27 14:43:00,898 - INFO - DEBUG: Successfully parsed date: 2025-10-23 16:30:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-10-23 16:30:00
+2025-08-27 14:43:00,898 - INFO - Successfully extracted event: Advokatvakten på Moss bibliotek...
+INFO:moss_kulturkalender:Successfully extracted event: Advokatvakten på Moss bibliotek...
+2025-08-27 14:43:00,901 - INFO - DEBUG: Successfully parsed date: 2025-10-29 13:00:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-10-29 13:00:00
+2025-08-27 14:43:00,902 - INFO - Successfully extracted event: Språkkafé på Moss bibliotek...
+INFO:moss_kulturkalender:Successfully extracted event: Språkkafé på Moss bibliotek...
+2025-08-27 14:43:00,905 - INFO - DEBUG: Successfully parsed date: 2025-10-30 11:00:00
+INFO:moss_kulturkalender:DEBUG: Successfully parsed date: 2025-10-30 11:00:00
+2025-08-27 14:43:00,906 - INFO - Successfully extracted event: Levende lydbok med Bente Holar...
+INFO:moss_kulturkalender:Successfully extracted event: Levende lydbok med Bente Holar...
+2025-08-27 14:43:00,906 - INFO - Successfully extracted 10 events from page 3
+INFO:moss_kulturkalender:Successfully extracted 10 events from page 3
+2025-08-27 14:43:02,911 - INFO - 📚 Moss Bibliotekene: Successfully scraped 30 events
+INFO:moss_kulturkalender:📚 Moss Bibliotekene: Successfully scraped 30 events
+2025-08-27 14:43:02,912 - INFO - 📚 Moss Bibliotekene: 30 events
+INFO:moss_kulturkalender:📚 Moss Bibliotekene: 30 events
+2025-08-27 14:43:02,914 - INFO - 🔄 Running Visit Østfold scraper...
+INFO:moss_kulturkalender:🔄 Running Visit Østfold scraper...
+2025-08-27 14:43:02,914 - INFO - Using Playwright for JavaScript rendering
+INFO:moss_kulturkalender:Using Playwright for JavaScript rendering
+2025-08-27 14:43:02,914 - INFO - Using Playwright to scrape: https://www.visitoestfold.com/moss/hva-skjer/?bounds=false&view=list&sort=date&filter_regions%5B0%5D=506503
+INFO:moss_kulturkalender:Using Playwright to scrape: https://www.visitoestfold.com/moss/hva-skjer/?bounds=false&view=list&sort=date&filter_regions%5B0%5D=506503
+2025-08-27 14:43:36,198 - INFO - Found events with selector: [class*="event"]
+INFO:moss_kulturkalender:Found events with selector: [class*="event"]
+2025-08-27 14:43:36,295 - INFO - Successfully retrieved page content with Playwright (658560 chars)
+INFO:moss_kulturkalender:Successfully retrieved page content with Playwright (658560 chars)
+2025-08-27 14:43:36,522 - INFO - Using selector '.item' - found 17 elements
+INFO:moss_kulturkalender:Using selector '.item' - found 17 elements
+2025-08-27 14:43:36,522 - INFO - Found 17 potential event elements
+INFO:moss_kulturkalender:Found 17 potential event elements
+2025-08-27 14:43:36,524 - INFO - Found event: Kambomila...
+INFO:moss_kulturkalender:Found event: Kambomila...
+2025-08-27 14:43:36,525 - INFO - Found event: Torsdagskveld på Alby: Utendørs kveldsomvisning...
+INFO:moss_kulturkalender:Found event: Torsdagskveld på Alby: Utendørs kveldsomvisning...
+2025-08-27 14:43:36,526 - INFO - Found event: Postraneren som mistet hodet i Mosseskogen...
+INFO:moss_kulturkalender:Found event: Postraneren som mistet hodet i Mosseskogen...
+2025-08-27 14:43:36,527 - INFO - Found event: Opplev utsikten og Moss sitt flotte bytårn...
+INFO:moss_kulturkalender:Found event: Opplev utsikten og Moss sitt flotte bytårn...
+2025-08-27 14:43:36,527 - INFO - Found event: Håndgemeng på Ålen Bar...
+INFO:moss_kulturkalender:Found event: Håndgemeng på Ålen Bar...
+2025-08-27 14:43:36,528 - INFO - Found event: Idrettsdagen...
+INFO:moss_kulturkalender:Found event: Idrettsdagen...
+2025-08-27 14:43:36,529 - INFO - Found event: Utforsk Moss gamle vannverk...
+INFO:moss_kulturkalender:Found event: Utforsk Moss gamle vannverk...
+2025-08-27 14:43:36,530 - INFO - Found event: CC Cowboys & Jon Ranes...
+INFO:moss_kulturkalender:Found event: CC Cowboys & Jon Ranes...
+2025-08-27 14:43:36,530 - INFO - Found event: Compagniet - Moss bluesklubb...
+INFO:moss_kulturkalender:Found event: Compagniet - Moss bluesklubb...
+2025-08-27 14:43:36,531 - INFO - Found event: Dirty Deeds...
+INFO:moss_kulturkalender:Found event: Dirty Deeds...
+2025-08-27 14:43:36,532 - INFO - Found event: 50-tallets søte trøst – lag eggedosis med Mossevis...
+INFO:moss_kulturkalender:Found event: 50-tallets søte trøst – lag eggedosis med Mossevis...
+2025-08-27 14:43:36,533 - INFO - Found event: Kulturminnedager: Omvisning på Torderød gård...
+INFO:moss_kulturkalender:Found event: Kulturminnedager: Omvisning på Torderød gård...
+2025-08-27 14:43:36,533 - INFO - Found event: Fortellinger om livet på Rygge på 17- og 1800-tall...
+INFO:moss_kulturkalender:Found event: Fortellinger om livet på Rygge på 17- og 1800-tall...
+2025-08-27 14:43:36,534 - INFO - Found event: Soppkontroll i Kirkeparken!...
+INFO:moss_kulturkalender:Found event: Soppkontroll i Kirkeparken!...
+2025-08-27 14:43:36,535 - INFO - Found event: Drop-in verksted på Galleri F 15...
+INFO:moss_kulturkalender:Found event: Drop-in verksted på Galleri F 15...
+2025-08-27 14:43:36,535 - INFO - Successfully found 15 events with Playwright
+INFO:moss_kulturkalender:Successfully found 15 events with Playwright
+2025-08-27 14:43:36,536 - INFO - 🌐 Visit Østfold: Successfully scraped 15 events
+INFO:moss_kulturkalender:🌐 Visit Østfold: Successfully scraped 15 events
+2025-08-27 14:43:36,536 - INFO - 🌐 Visit Østfold: 15 events
+INFO:moss_kulturkalender:🌐 Visit Østfold: 15 events
+2025-08-27 14:43:36,536 - INFO - 🔄 Running Moss Avis scraper...
+INFO:moss_kulturkalender:🔄 Running Moss Avis scraper...
+2025-08-27 14:43:36,871 - INFO - Using selector 'article' - found 4 elements
+INFO:moss_kulturkalender:Using selector 'article' - found 4 elements
+2025-08-27 14:43:36,871 - INFO - Found 4 potential event elements
+INFO:moss_kulturkalender:Found 4 potential event elements
+2025-08-27 14:43:36,873 - INFO - 📰 Moss Avis: Successfully scraped 0 events
+INFO:moss_kulturkalender:📰 Moss Avis: Successfully scraped 0 events
+2025-08-27 14:43:36,873 - INFO - 📰 Moss Avis: No events found
+INFO:moss_kulturkalender:📰 Moss Avis: No events found
+2025-08-27 14:43:36,874 - INFO - 🔄 Running Galleri F15 scraper...
+INFO:moss_kulturkalender:🔄 Running Galleri F15 scraper...
+2025-08-27 14:43:36,874 - INFO - Using Playwright for complete page rendering
+INFO:moss_kulturkalender:Using Playwright for complete page rendering
+2025-08-27 14:43:36,874 - INFO - Using Playwright to fetch: https://gallerif15.no/kalender/
+INFO:moss_kulturkalender:Using Playwright to fetch: https://gallerif15.no/kalender/
+2025-08-27 14:43:47,364 - INFO - Using generic wait for content loading
+INFO:moss_kulturkalender:Using generic wait for content loading
+2025-08-27 14:43:50,440 - INFO - Successfully retrieved calendar page with Playwright (18252 chars)
+INFO:moss_kulturkalender:Successfully retrieved calendar page with Playwright (18252 chars)
+2025-08-27 14:43:50,448 - INFO - Using fallback selectors for event detection
+INFO:moss_kulturkalender:Using fallback selectors for event detection
+2025-08-27 14:43:50,450 - INFO - Found 0 potential event elements
+INFO:moss_kulturkalender:Found 0 potential event elements
+2025-08-27 14:43:50,450 - INFO - Playwright HTML parsing found no events, trying other methods
+INFO:moss_kulturkalender:Playwright HTML parsing found no events, trying other methods
+2025-08-27 14:43:50,450 - INFO - Playwright didn't find events, trying API endpoints
+INFO:moss_kulturkalender:Playwright didn't find events, trying API endpoints
+2025-08-27 14:43:50,450 - INFO - Trying API endpoint: https://gallerif15.no/wp-json/wp/v2/events
+INFO:moss_kulturkalender:Trying API endpoint: https://gallerif15.no/wp-json/wp/v2/events
+2025-08-27 14:43:50,940 - WARNING - api_request
+WARNING:moss_kulturkalender:api_request
+2025-08-27 14:43:50,940 - INFO - Trying API endpoint: https://gallerif15.no/api/events
+INFO:moss_kulturkalender:Trying API endpoint: https://gallerif15.no/api/events
+2025-08-27 14:43:51,234 - WARNING - api_parse
+WARNING:moss_kulturkalender:api_parse
+2025-08-27 14:43:51,686 - WARNING - api_parse
+WARNING:moss_kulturkalender:api_parse
+2025-08-27 14:43:51,686 - WARNING - api_request
+WARNING:moss_kulturkalender:api_request
+2025-08-27 14:43:51,687 - INFO - Trying API endpoint: https://gallerif15.no/wp-json/tribe/events/v1/events
+INFO:moss_kulturkalender:Trying API endpoint: https://gallerif15.no/wp-json/tribe/events/v1/events
+2025-08-27 14:43:51,813 - WARNING - api_request
+WARNING:moss_kulturkalender:api_request
+2025-08-27 14:43:51,813 - INFO - API not available, falling back to basic HTML scraping
+INFO:moss_kulturkalender:API not available, falling back to basic HTML scraping
+2025-08-27 14:43:51,892 - INFO - Using fallback selectors for event detection
+INFO:moss_kulturkalender:Using fallback selectors for event detection
+2025-08-27 14:43:51,894 - INFO - Using fallback selector '.post' - found 6 relevant elements
+INFO:moss_kulturkalender:Using fallback selector '.post' - found 6 relevant elements
+2025-08-27 14:43:51,894 - INFO - Found 6 potential event elements
+INFO:moss_kulturkalender:Found 6 potential event elements
+2025-08-27 14:43:51,895 - INFO - Successfully extracted event 1: Torsdagskveld på Alby: Utendørs kveldsomvisning...
+INFO:moss_kulturkalender:Successfully extracted event 1: Torsdagskveld på Alby: Utendørs kveldsomvisning...
+2025-08-27 14:43:51,896 - INFO - Successfully extracted event 2: Drop-in verksted...
+INFO:moss_kulturkalender:Successfully extracted event 2: Drop-in verksted...
+2025-08-27 14:43:51,896 - INFO - Successfully extracted event 3: Søndagsomvisning...
+INFO:moss_kulturkalender:Successfully extracted event 3: Søndagsomvisning...
+2025-08-27 14:43:51,897 - INFO - Successfully extracted event 4: Babyomvisning...
+INFO:moss_kulturkalender:Successfully extracted event 4: Babyomvisning...
+2025-08-27 14:43:51,898 - INFO - Successfully extracted event 5: Vernissasje: Marina Abramović...
+INFO:moss_kulturkalender:Successfully extracted event 5: Vernissasje: Marina Abramović...
+2025-08-27 14:43:51,898 - INFO - Successfully extracted event 6: Vernissasje: Marina Abramović...
+INFO:moss_kulturkalender:Successfully extracted event 6: Vernissasje: Marina Abramović...
+2025-08-27 14:43:51,899 - INFO - 🎨 Galleri F15: Successfully scraped 6 events
+INFO:moss_kulturkalender:🎨 Galleri F15: Successfully scraped 6 events
+2025-08-27 14:43:51,899 - INFO - 🎨 Galleri F15: 6 events
+INFO:moss_kulturkalender:🎨 Galleri F15: 6 events
+2025-08-27 14:43:51,899 - INFO - 🔄 Running Odeon Kino scraper...
+INFO:moss_kulturkalender:🔄 Running Odeon Kino scraper...
+2025-08-27 14:43:51,899 - INFO - Trying RSS feeds first (premieres focus)
+INFO:moss_kulturkalender:Trying RSS feeds first (premieres focus)
+2025-08-27 14:43:51,899 - INFO - Trying RSS feed: https://www.odeonkino.no/rss/
+INFO:moss_kulturkalender:Trying RSS feed: https://www.odeonkino.no/rss/
+2025-08-27 14:43:51,953 - INFO - Trying RSS feed: https://www.odeonkino.no/feed/
+INFO:moss_kulturkalender:Trying RSS feed: https://www.odeonkino.no/feed/
+2025-08-27 14:43:51,970 - INFO - Trying RSS feed: https://www.odeonkino.no/moss/rss/
+INFO:moss_kulturkalender:Trying RSS feed: https://www.odeonkino.no/moss/rss/
+2025-08-27 14:43:51,989 - INFO - Trying RSS feed: https://www.odeonkino.no/moss/feed/
+INFO:moss_kulturkalender:Trying RSS feed: https://www.odeonkino.no/moss/feed/
+2025-08-27 14:43:52,008 - INFO - RSS feeds not available, trying API endpoints
+INFO:moss_kulturkalender:RSS feeds not available, trying API endpoints
+2025-08-27 14:43:52,008 - INFO - Trying cinema API endpoint: https://www.odeonkino.no/api/showtimes
+INFO:moss_kulturkalender:Trying cinema API endpoint: https://www.odeonkino.no/api/showtimes
+2025-08-27 14:43:52,027 - WARNING - api_request
+WARNING:moss_kulturkalender:api_request
+2025-08-27 14:43:52,044 - WARNING - api_request
+WARNING:moss_kulturkalender:api_request
+2025-08-27 14:43:52,064 - WARNING - api_request
+WARNING:moss_kulturkalender:api_request
+2025-08-27 14:43:52,079 - WARNING - api_request
+WARNING:moss_kulturkalender:api_request
+2025-08-27 14:43:52,080 - INFO - Trying cinema API endpoint: https://www.odeonkino.no/api/cinema/moss
+INFO:moss_kulturkalender:Trying cinema API endpoint: https://www.odeonkino.no/api/cinema/moss
+2025-08-27 14:43:52,100 - WARNING - api_request
+WARNING:moss_kulturkalender:api_request
+2025-08-27 14:43:52,119 - WARNING - api_request
+WARNING:moss_kulturkalender:api_request
+2025-08-27 14:43:52,141 - WARNING - api_request
+WARNING:moss_kulturkalender:api_request
+2025-08-27 14:43:52,157 - WARNING - api_request
+WARNING:moss_kulturkalender:api_request
+2025-08-27 14:43:52,157 - INFO - Trying cinema API endpoint: https://www.odeonkino.no/moss/api/showtimes
+INFO:moss_kulturkalender:Trying cinema API endpoint: https://www.odeonkino.no/moss/api/showtimes
+2025-08-27 14:43:52,175 - WARNING - api_request
+WARNING:moss_kulturkalender:api_request
+2025-08-27 14:43:52,190 - WARNING - api_request
+WARNING:moss_kulturkalender:api_request
+2025-08-27 14:43:52,207 - WARNING - api_request
+WARNING:moss_kulturkalender:api_request
+2025-08-27 14:43:52,230 - WARNING - api_request
+WARNING:moss_kulturkalender:api_request
+2025-08-27 14:43:52,231 - INFO - API not available, using Playwright to bypass access restrictions
+INFO:moss_kulturkalender:API not available, using Playwright to bypass access restrictions
+2025-08-27 14:43:52,231 - INFO - Using Playwright to fetch cinema data from: https://www.odeonkino.no/moss/
+INFO:moss_kulturkalender:Using Playwright to fetch cinema data from: https://www.odeonkino.no/moss/
+2025-08-27 14:43:52,530 - INFO - Playwright: Trying https://www.odeonkino.no/moss/
+INFO:moss_kulturkalender:Playwright: Trying https://www.odeonkino.no/moss/
+2025-08-27 14:44:03,284 - INFO - Using generic wait for: https://www.odeonkino.no/moss/
+INFO:moss_kulturkalender:Using generic wait for: https://www.odeonkino.no/moss/
+2025-08-27 14:44:06,349 - INFO - Successfully retrieved cinema page (5301 chars)
+INFO:moss_kulturkalender:Successfully retrieved cinema page (5301 chars)
+2025-08-27 14:44:06,375 - INFO - Using fallback search for movie content
+INFO:moss_kulturkalender:Using fallback search for movie content
+2025-08-27 14:44:06,375 - INFO - Found 3 potential movie elements
+INFO:moss_kulturkalender:Found 3 potential movie elements
+2025-08-27 14:44:06,376 - INFO - Successfully extracted movie 1: Sorry, you have been blocked...
+INFO:moss_kulturkalender:Successfully extracted movie 1: Sorry, you have been blocked...
+2025-08-27 14:44:06,376 - INFO - Successfully extracted movie 2: Sorry, you have been blocked...
+INFO:moss_kulturkalender:Successfully extracted movie 2: Sorry, you have been blocked...
+2025-08-27 14:44:06,377 - INFO - Playwright HTML parsing found no valid movie events or was blocked
+INFO:moss_kulturkalender:Playwright HTML parsing found no valid movie events or was blocked
+2025-08-27 14:44:06,377 - INFO - Playwright blocked, falling back to session-based HTML scraping
+INFO:moss_kulturkalender:Playwright blocked, falling back to session-based HTML scraping
+2025-08-27 14:44:06,377 - INFO - Trying to fetch: https://www.odeonkino.no/moss/
+INFO:moss_kulturkalender:Trying to fetch: https://www.odeonkino.no/moss/
+2025-08-27 14:44:07,425 - WARNING - kino_scraper
+WARNING:moss_kulturkalender:kino_scraper
+2025-08-27 14:44:07,425 - INFO - Trying to fetch: https://www.odeonkino.no/moss/program/
+INFO:moss_kulturkalender:Trying to fetch: https://www.odeonkino.no/moss/program/
+2025-08-27 14:44:08,449 - WARNING - kino_scraper
+WARNING:moss_kulturkalender:kino_scraper
+2025-08-27 14:44:08,449 - INFO - Trying to fetch: https://www.odeonkino.no/moss/filmer/
+INFO:moss_kulturkalender:Trying to fetch: https://www.odeonkino.no/moss/filmer/
+2025-08-27 14:44:09,473 - WARNING - kino_scraper
+WARNING:moss_kulturkalender:kino_scraper
+2025-08-27 14:44:09,473 - INFO - Trying to fetch: https://www.odeonkino.no/kino/moss/
+INFO:moss_kulturkalender:Trying to fetch: https://www.odeonkino.no/kino/moss/
+2025-08-27 14:44:10,510 - WARNING - kino_scraper
+WARNING:moss_kulturkalender:kino_scraper
+2025-08-27 14:44:10,511 - WARNING - odeon_scraper
+WARNING:moss_kulturkalender:odeon_scraper
+2025-08-27 14:44:10,512 - INFO - 🎬 Odeon Kino: Successfully scraped 0 showtimes
+INFO:moss_kulturkalender:🎬 Odeon Kino: Successfully scraped 0 showtimes
+2025-08-27 14:44:10,512 - INFO - 🎬 Odeon Kino: No events found
+INFO:moss_kulturkalender:🎬 Odeon Kino: No events found
+2025-08-27 14:44:10,513 - INFO - 📰 Legacy crawl completed: 117 events from 4 sources
+INFO:moss_kulturkalender:📰 Legacy crawl completed: 117 events from 4 sources
+2025-08-27 14:44:10,513 - INFO - 📥 Total events collected: 171
+INFO:moss_kulturkalender:📥 Total events collected: 171
+2025-08-27 14:44:10,514 - INFO - 🔍 Deduplicating 171 events...
+INFO:moss_kulturkalender:🔍 Deduplicating 171 events...
+2025-08-27 14:44:10,514 - INFO - 📊 54 Ticketmaster events, 117 other events
+INFO:moss_kulturkalender:📊 54 Ticketmaster events, 117 other events
+2025-08-27 14:44:10,521 - INFO - Deduplication: 171 -> 171 unique events (0 duplicates removed)
+INFO:moss_kulturkalender:Deduplication: 171 -> 171 unique events (0 duplicates removed)
+2025-08-27 14:44:10,521 - INFO - ✨ Deduplication complete: 171 unique events
+INFO:moss_kulturkalender:✨ Deduplication complete: 171 unique events
+2025-08-27 14:44:10,521 - INFO - 🗑️  Removed 0 duplicates
+INFO:moss_kulturkalender:🗑️  Removed 0 duplicates
+2025-08-27 14:44:10,522 - INFO - 💾 Saving 171 events to database...
+INFO:moss_kulturkalender:💾 Saving 171 events to database...
+2025-08-27 14:44:10,522 - INFO - Saving 54 events from Ticketmaster to database...
+INFO:moss_kulturkalender:Saving 54 events from Ticketmaster to database...
+2025-08-27 14:44:10,534 - INFO - Saved events from Ticketmaster: 0 new, 0 updated, 54 duplicates
+INFO:moss_kulturkalender:Saved events from Ticketmaster: 0 new, 0 updated, 54 duplicates
+2025-08-27 14:44:10,534 - INFO - 🎫 Ticketmaster: 0 new, 0 updated
+INFO:moss_kulturkalender:🎫 Ticketmaster: 0 new, 0 updated
+2025-08-27 14:44:10,535 - INFO - Saving 117 events from Legacy Sources to database...
+INFO:moss_kulturkalender:Saving 117 events from Legacy Sources to database...
+2025-08-27 14:44:10,559 - INFO - Saved events from Legacy Sources: 0 new, 0 updated, 117 duplicates
+INFO:moss_kulturkalender:Saved events from Legacy Sources: 0 new, 0 updated, 117 duplicates
+2025-08-27 14:44:10,559 - INFO - 📰 Legacy: 0 new, 0 updated
+INFO:moss_kulturkalender:📰 Legacy: 0 new, 0 updated
+2025-08-27 14:44:10,559 - INFO - ✅ Database save complete: {'new': 0, 'updated': 0, 'duplicates': 171}
+INFO:moss_kulturkalender:✅ Database save complete: {'new': 0, 'updated': 0, 'duplicates': 171}
+2025-08-27 14:44:10,559 - INFO - 🌐 Generating HTML calendar output...
+INFO:moss_kulturkalender:🌐 Generating HTML calendar output...
+2025-08-27 14:44:10,560 - ERROR - [html_generation] HTML generation failed: 'Event' object has no attribute 'info_url'
+ERROR:moss_kulturkalender:[html_generation] HTML generation failed: 'Event' object has no attribute 'info_url'
+2025-08-27 14:44:10,560 - INFO - ✅ Crawler pipeline completed successfully in 99.7s
+INFO:moss_kulturkalender:✅ Crawler pipeline completed successfully in 99.7s
+2025-08-27 14:44:10,560 - INFO - 📊 Results: 171 unique events (54 from Ticketmaster)
+INFO:moss_kulturkalender:📊 Results: 171 unique events (54 from Ticketmaster)
+2025-12-10T19:00:00 | Parkteatret | DNBE + Solveig Slettahjell : Julekonsert -> https://www.mosskulturhus.no/event/dnbe-solveig-slettahjell-julekonsert/ price=kr 385,-
+2025-12-11T19:00:00 | Parkteatret | Dagfinn Lyngbø – folk – 2025 -> https://www.mosskulturhus.no/event/dagfinn-lyngbo-folk-2025/ price=kr 575,-
+2025-12-12T18:00:00 | Parkteatret | Nøtteknekkeren – Klassisk juleballett -> https://www.mosskulturhus.no/event/notteknekkeren-klassisk-juleballett/ price=kr 635,-
+2025-12-13T19:00:00 | Parkteatret | Emmas jul – Juleturné -> https://www.mosskulturhus.no/event/emmas-jul-juleturne/ price=kr 610,-
+2025-12-14T19:00:00 | Parkteatret | Symfonica -> https://www.mosskulturhus.no/event/symfonica/ price=kr 650,-
+2025-12-17T19:00:00 | Parkteatret | Julefest – med Anders Baasmo, Reidun Sæther og Trond Nagell-Dahl -> https://www.mosskulturhus.no/event/julefest-med-anders-baasmo-reidun-saether-og-trond-nagell-dahl/ price=kr 660,-
+2025-12-18T19:00:00 | Parkteatret | Julekonsert med Chris Medina, Alejandro Fuentes og Eirik Næss -> https://www.mosskulturhus.no/event/julekonsert-med-chris-medina-alejandro-fuentes-og-eirik-naess/ price=kr 555,-
+2025-12-19T18:00:00 | Parkteatret | Reisen til julestjernen -> https://www.mosskulturhus.no/event/reisen-til-julestjernen/ price=kr 474,-
+2025-12-20T21:00:00 | Parkteatret | Vår Jul -> https://www.mosskulturhus.no/event/var-jul/ price=kr 650,-
+2025-12-21T18:00:00 | Parkteatret | Ringe inn – Maria Haukaas Mittet & Lars Bremnes -> https://www.mosskulturhus.no/event/ringe-inn-maria-haukaas-mittet-lars-bremnes/ price=kr 620,-
+2026-01-14T19:00:00 | Parkteatret | Nyttårskonsert med DNBE -> https://www.mosskulturhus.no/event/nyttarskonsert-med-dnbe/ price=kr 385,- (medlem 310,-)
+2026-03-21T19:00:00 | Samfunnshuset | Anders Jektvik -> https://www.mosskulturhus.no/event/anders-jektvik/ price=kr 480,-
+2026-01-29T19:00:00 | Parkteatret | Melissa Horn -> https://www.mosskulturhus.no/event/melissa-horn/ price=kr 620,-
+2026-01-30T18:30:00 | Parkteatret | Evig Ung -> https://www.mosskulturhus.no/event/evig-ung/ price=kr 795,-
+2026-04-15T19:00:00 | Parkteatret | Riksteatret: Læreren -> https://www.mosskulturhus.no/event/riksteatret-laereren/ price=kr 455,-
+2026-04-17T19:00:00 | Parkteatret | Vamp -> https://www.mosskulturhus.no/event/vamp/ price=kr 630,-
+2026-05-26T18:00:00 | Parkteatret | Riksteatret: Skorpionens spill – I skyggen av Roblox -> https://www.mosskulturhus.no/event/riksteatret-skorpionens-spill-i-skyggen-av-roblox/ price=kr 315,-
+2025-11-17T19:00:00 | Parkteatret | Slik takler du idiotene på jobben! 2 – Per Henrik Stenstrøm – 2026 -> https://www.mosskulturhus.no/event/slik-takler-du-idiotene-pa-jobben-2-per-henrik-stenstrom-2026/ price=kr 525,-
+
+🎉 Crawling Complete!
+📊 Events: 171 unique (54 from Ticketmaster)
+💾 Database: 0 new, 0 updated
+Wed Aug 27 02:44:10 PM CEST 2025: Automatic update completed
+----------------------------------------

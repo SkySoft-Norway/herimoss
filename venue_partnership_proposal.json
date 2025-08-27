@@ -1,0 +1,79 @@
+{
+  "venue": "Moss Kulturhus",
+  "contact_info": {
+    "website": "https://www.mosskulturhus.no",
+    "email": "post@mosskulturhus.no",
+    "phone": "+47 69 92 90 00",
+    "address": "Fleischer Bygg, Dronningens gate 83, 1530 Moss"
+  },
+  "partnership_benefits": {
+    "for_venue": [
+      "Økt synlighet for arrangementer",
+      "Automatisk markedsføring på herimoss.no",
+      "Detaljert statistikk over interesse",
+      "Gratis tjeneste for event-promotering",
+      "Integrert billettlenking"
+    ],
+    "for_moss_kalender": [
+      "Oppdatert event-informasjon i sanntid",
+      "Komplette event-detaljer",
+      "Pålitelig datakilde",
+      "Redusert manuelt arbeid"
+    ]
+  },
+  "technical_integration": {
+    "preferred_methods": [
+      {
+        "method": "JSON API Feed",
+        "description": "REST API som returnerer event data i JSON format",
+        "endpoint_example": "https://www.mosskulturhus.no/api/events",
+        "update_frequency": "Real-time eller daglig",
+        "authentication": "API nøkkel eller basic auth"
+      },
+      {
+        "method": "RSS/XML Feed",
+        "description": "Strukturert RSS feed med event informasjon",
+        "endpoint_example": "https://www.mosskulturhus.no/events.rss",
+        "update_frequency": "Daglig",
+        "authentication": "Ingen (offentlig feed)"
+      },
+      {
+        "method": "Database Integration",
+        "description": "Direkte tilgang til venue's booking database",
+        "access_method": "Readonly database user eller views",
+        "update_frequency": "Real-time",
+        "authentication": "Database credentials"
+      },
+      {
+        "method": "Webhook Notifications",
+        "description": "Venue sender webhook når nye events opprettes",
+        "endpoint": "https://herimoss.no/api/venue-webhook",
+        "trigger": "New event, event update, cancellation",
+        "authentication": "Shared secret eller API key"
+      }
+    ]
+  },
+  "data_requirements": {
+    "required_fields": [
+      "title",
+      "description",
+      "start_date",
+      "start_time",
+      "venue",
+      "price",
+      "booking_url",
+      "category"
+    ],
+    "optional_fields": [
+      "end_date",
+      "end_time",
+      "age_limit",
+      "accessibility_info",
+      "performer",
+      "genre",
+      "duration",
+      "language"
+    ],
+    "format": "JSON or XML with UTF-8 encoding"
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "timezone": "Europe/Oslo",
+  "output_html": "/var/www/vhosts/herimoss.no/httpdocs/index.html",
+  "sources": {
+    "moss_kommune": {
+      "enabled": true,
+      "ical_urls": [
+        "https://moss.kommune.no/tjenester/kultur-og-fritid/arrangementer/kalender.ics"
+      ],
+      "rss_urls": [
+        "https://moss.kommune.no/aktuelt/nyheter/rss/",
+        "https://moss.kommune.no/tjenester/kultur-og-fritid/arrangementer/rss/"
+      ],
+      "html_urls": [
+        "https://moss.kommune.no/tjenester/kultur-og-fritid/arrangementer/",
+        "https://moss.kommune.no/aktuelt/arrangementer/"
+      ]
+    },
+    "moss_kulturhus": {
+      "enabled": true,
+      "html_urls": [
+        "https://www.mosskulturhus.no/program",
+        "https://www.mosskulturhus.no/arrangementer"
+      ],
+      "rss_urls": [
+        "https://www.mosskulturhus.no/rss"
+      ]
+    },
+    "verket_scene": {
+      "enabled": true,
+      "html_urls": [
+        "https://www.verketscene.no/",
+        "https://www.verketscene.no/program",
+        "https://www.verketscene.no/konserter"
+      ]
+    },
+    "tickets": {
+      "enabled": true,
+      "ticketco_orgs": ["verket-scene", "moss-kulturhus"],
+      "eventim_venues": ["Moss Kulturhus", "Verket Scene"],
+      "ticketmaster_venues": ["Verket Scene"]
+    },
+    "facebook_pages": {
+      "enabled": true,
+      "pages": ["MossKulturhus", "VerketScene", "VisitMoss", "MossKommune"],
+      "use_graph_api": false
+    },
+    "google_calendar": {
+      "enabled": true,
+      "ical_urls": [
+        "https://calendar.google.com/calendar/ical/moss.kulturhus%40gmail.com/public/basic.ics"
+      ],
+      "calendar_ids": [
+        "moss.kulturhus@gmail.com"
+      ]
+    },
+    "meetup": {
+      "enabled": true,
+      "cities": ["Moss", "Oslo", "Fredrikstad"],
+      "radius_km": 40,
+      "categories": ["music", "arts-culture", "outdoors-adventure"]
+    },
+    "bandsintown": {
+      "enabled": true,
+      "venues": ["Verket Scene", "Moss Kulturhus"],
+      "city": "Moss, Norway",
+      "artists": []
+    },
+    "songkick": {
+      "enabled": true,
+      "metro_area": "sk:26721",
+      "venues": ["Verket Scene", "Moss Kulturhus"]
+    },
+    "lokalavis": {
+      "enabled": true,
+      "rss": [
+        "https://www.moss-avis.no/rss",
+        "https://www.ostlendingen.no/rss/kultur",
+        "https://www.fredrikstad-blad.no/rss/kultur"
+      ],
+      "event_pages": [
+        "https://www.moss-avis.no/kultur/hva-skjer/",
+        "https://www.ostlendingen.no/kultur/arrangementer/"
+      ]
+    },
+    "instagram_links": {
+      "enabled": true,
+      "profiles": ["verketscene", "mosskulturhus", "visitmoss", "galleri_f15"],
+      "follow_bio_links": true
+    },
+    "fb_groups": {
+      "enabled": true,
+      "groups": ["HvaSkjerIMoss", "MossKultur", "EventsMoss"],
+      "only_if_public": true
+    },
+    "booking_widgets": {
+      "enabled": true,
+      "json_endpoints": [
+        "https://www.verketscene.no/api/events",
+        "https://www.mosskulturhus.no/api/calendar"
+      ]
+    },
+    
+    "meetup_api": {
+      "enabled": true,
+      "type": "api",
+      "name": "Meetup Events",
+      "location": "Moss,NO",
+      "radius": 25.0,
+      "days_ahead": 90,
+      "api_key": null
+    },
+    "bandsintown_api": {
+      "enabled": true,
+      "type": "api", 
+      "name": "Bandsintown Concerts",
+      "days_ahead": 90,
+      "app_id": "MossKulturkalender"
+    },
+    "songkick_api": {
+      "enabled": true,
+      "type": "api",
+      "name": "Songkick Events", 
+      "days_ahead": 90,
+      "api_key": null
+    },
+    
+    "ticketco_events": {
+      "enabled": true,
+      "type": "html",
+      "name": "TicketCo Events",
+      "venue_slug": "moss-kulturhus",
+      "days_ahead": 90
+    },
+    "eventim_oslo": {
+      "enabled": true,
+      "type": "html", 
+      "name": "Eventim Oslo Events",
+      "city": "oslo",
+      "category": "concerts",
+      "days_ahead": 90
+    },
+    "moss_avis_kultur": {
+      "enabled": true,
+      "type": "html",
+      "name": "Moss Avis Kultur",
+      "source_name": "moss_avis",
+      "rate_limit": 2.0
+    },
+    "ostlendingen_kultur": {
+      "enabled": true,
+      "type": "html",
+      "name": "Østlendingen Kultur", 
+      "source_name": "ostlendingen",
+      "rate_limit": 2.0
+    },
+    "verket_booking_widget": {
+      "enabled": true,
+      "type": "api",
+      "name": "Verket Booking System",
+      "base_url": "https://www.verketscene.no",
+      "endpoints": ["/api/events", "/calendar.json"],
+      "widget_type": "custom"
+    },
+    "moss_kulturhus_api": {
+      "enabled": true,
+      "type": "api", 
+      "name": "Moss Kulturhus API",
+      "base_url": "https://www.mosskulturhus.no",
+      "endpoints": ["/api/calendar", "/events.json"],
+      "widget_type": "custom"
+    },
+    "google_alerts": {
+      "enabled": true,
+      "keywords": [
+        "konsert Moss",
+        "forestilling Moss",
+        "Verket Scene billetter",
+        "Moss Kulturhus program",
+        "arrangement Moss",
+        "festival Moss"
+      ]
+    },
+    "public_tips": {
+      "enabled": true,
+      "file": "/var/www/vhosts/herimoss.no/pythoncrawler/state/tips.json"
+    }
+  },
+  "http": {
+    "timeout_sec": 15,
+    "max_concurrency": 8,
+    "rate_limit_per_host_per_sec": 1.0,
+    "retry": {
+      "tries": 3,
+      "backoff_sec": 1.2
+    }
+  },
+  "html": {
+    "site_title": "Moss Kulturkalender",
+    "show_archive": true,
+    "max_archive_on_front": 12
+  },
+  "rules": {
+    "archive_if_ended_before_hours": 1,
+    "default_city": "Moss",
+    "category_keywords": {
+      "Musikk": ["konsert", "band", "dj", "live", "gig"],
+      "Teater": ["teater", "standup", "improv", "forestilling"],
+      "Familie": ["familie", "barn", "barne", "familiedag"],
+      "Utstilling": ["utstilling", "vernissage", "galleri"]
+    }
+  }
+}

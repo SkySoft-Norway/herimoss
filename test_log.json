@@ -1,0 +1,7 @@
+{"ts": "2025-08-25T14:29:50.929333+02:00", "level": "INFO", "message": "API key validation:"}
+{"ts": "2025-08-25T14:29:50.929475+02:00", "level": "INFO", "message": "  meetup: ✗ missing"}
+{"ts": "2025-08-25T14:29:50.929542+02:00", "level": "INFO", "message": "  bandsintown: ✗ missing"}
+{"ts": "2025-08-25T14:29:50.929646+02:00", "level": "INFO", "message": "  songkick: ✗ missing"}
+{"ts": "2025-08-25T14:29:50.990826+02:00", "level": "WARNING", "message": "Service test_circuit_breaker circuit breaker activated. Retry after 5 minutes"}
+{"ts": "2025-08-25T14:29:50.990941+02:00", "level": "WARNING", "message": "Service test_circuit_breaker circuit breaker activated. Retry after 15 minutes"}
+{"ts": "2025-08-25T14:29:50.991018+02:00", "level": "WARNING", "message": "Service test_circuit_breaker circuit breaker activated. Retry after 60 minutes"}

@@ -1,0 +1,184 @@
+{"ts": "2025-08-25T15:52:48.435787+02:00", "level": "INFO", "message": "🧪 Starting Phase 7 validation..."}
+{"ts": "2025-08-25T15:52:48.435986+02:00", "level": "INFO", "message": "🧠 Testing ML categorization..."}
+{"ts": "2025-08-25T15:52:48.436150+02:00", "level": "INFO", "message": "🤖 Initializing ML categorizer..."}
+{"ts": "2025-08-25T15:52:48.436300+02:00", "level": "INFO", "message": "No existing model found, will train on first use"}
+{"ts": "2025-08-25T15:55:11.529391+02:00", "level": "INFO", "message": "🧪 Starting Phase 7 validation..."}
+{"ts": "2025-08-25T15:55:11.529556+02:00", "level": "INFO", "message": "🧠 Testing ML categorization..."}
+{"ts": "2025-08-25T15:55:11.529665+02:00", "level": "INFO", "message": "🤖 Initializing ML categorizer..."}
+{"ts": "2025-08-25T15:55:11.529822+02:00", "level": "INFO", "message": "No existing model found, will train on first use"}
+{"ts": "2025-08-26T08:19:20.190386+02:00", "level": "INFO", "message": "🧪 Starting Phase 7 validation..."}
+{"ts": "2025-08-26T08:19:20.190519+02:00", "level": "INFO", "message": "🧠 Testing ML categorization..."}
+{"ts": "2025-08-26T08:19:20.190605+02:00", "level": "INFO", "message": "🤖 Initializing ML categorizer..."}
+{"ts": "2025-08-26T08:19:20.190690+02:00", "level": "INFO", "message": "No existing model found, will train on first use"}
+{"ts": "2025-08-26T08:22:36.662706+02:00", "level": "INFO", "message": "🧪 Starting Phase 7 validation..."}
+{"ts": "2025-08-26T08:22:36.662880+02:00", "level": "INFO", "message": "🧠 Testing ML categorization..."}
+{"ts": "2025-08-26T08:22:36.662997+02:00", "level": "INFO", "message": "🤖 Initializing ML categorizer..."}
+{"ts": "2025-08-26T08:22:36.663142+02:00", "level": "INFO", "message": "No existing model found, will train on first use"}
+{"ts": "2025-08-26T08:24:41.408508+02:00", "level": "INFO", "message": "🧪 Starting Phase 7 validation..."}
+{"ts": "2025-08-26T08:24:41.408678+02:00", "level": "INFO", "message": "🧠 Testing ML categorization..."}
+{"ts": "2025-08-26T08:24:41.408791+02:00", "level": "INFO", "message": "🤖 Initializing ML categorizer..."}
+{"ts": "2025-08-26T08:24:41.408903+02:00", "level": "INFO", "message": "No existing model found, will train on first use"}
+{"ts": "2025-08-26T08:26:21.199774+02:00", "level": "INFO", "message": "🧪 Starting Phase 7 validation..."}
+{"ts": "2025-08-26T08:26:21.199939+02:00", "level": "INFO", "message": "🧠 Testing ML categorization..."}
+{"ts": "2025-08-26T08:26:21.200022+02:00", "level": "INFO", "message": "🤖 Initializing ML categorizer..."}
+{"ts": "2025-08-26T08:26:21.200166+02:00", "level": "INFO", "message": "No existing model found, will train on first use"}
+{"ts": "2025-08-26T08:26:21.200571+02:00", "level": "ERROR", "message": "[ml] Event categorization failed: \"Event\" object has no field \"confidence_score\"", "source": "ml"}
+{"ts": "2025-08-26T08:26:21.200767+02:00", "level": "ERROR", "message": "[validation] ML categorization test failed: Categorization did not add categories", "source": "validation"}
+{"ts": "2025-08-26T08:26:21.200883+02:00", "level": "INFO", "message": "⚡ Testing performance monitoring..."}
+{"ts": "2025-08-26T08:26:21.201265+02:00", "level": "INFO", "message": "📊 Performance monitoring started"}
+{"ts": "2025-08-26T08:26:21.206708+02:00", "level": "INFO", "message": "🔄 Started processing session session_1756189581 with 100 items"}
+{"ts": "2025-08-26T08:26:21.307369+02:00", "level": "INFO", "message": "✅ Session session_1756189581 completed successfully"}
+{"ts": "2025-08-26T08:26:21.308057+02:00", "level": "INFO", "message": "⏹️ Performance monitoring stopped"}
+{"ts": "2025-08-26T08:26:21.308456+02:00", "level": "INFO", "message": "✅ Performance monitoring tests passed"}
+{"ts": "2025-08-26T08:26:21.308806+02:00", "level": "INFO", "message": "📊 Testing analytics..."}
+{"ts": "2025-08-26T08:26:21.309506+02:00", "level": "INFO", "message": "🔍 Analyzing event trends for last 30 days..."}
+{"ts": "2025-08-26T08:26:21.309937+02:00", "level": "INFO", "message": "Initializing database..."}
+{"ts": "2025-08-26T08:26:21.356604+02:00", "level": "INFO", "message": "Database initialized at events.db"}
+{"ts": "2025-08-26T08:26:21.361347+02:00", "level": "ERROR", "message": "[validation] Analytics test failed: Unexpected trend types: set()", "source": "validation"}
+{"ts": "2025-08-26T08:26:21.361843+02:00", "level": "INFO", "message": "🔗 Testing component integration..."}
+{"ts": "2025-08-26T08:26:21.362233+02:00", "level": "INFO", "message": "🤖 Initializing ML categorizer..."}
+{"ts": "2025-08-26T08:26:21.362780+02:00", "level": "INFO", "message": "No existing model found, will train on first use"}
+{"ts": "2025-08-26T08:26:21.363138+02:00", "level": "INFO", "message": "📊 Performance monitoring started"}
+{"ts": "2025-08-26T08:26:21.363587+02:00", "level": "INFO", "message": "🔄 Started processing session session_1756189581 with 1 items"}
+{"ts": "2025-08-26T08:26:21.364596+02:00", "level": "ERROR", "message": "[ml] Event categorization failed: \"Event\" object has no field \"confidence_score\"", "source": "ml"}
+{"ts": "2025-08-26T08:26:21.365000+02:00", "level": "INFO", "message": "✅ Session session_1756189581 completed successfully"}
+{"ts": "2025-08-26T08:26:21.365709+02:00", "level": "ERROR", "message": "[validation] Integration test failed: Categorization did not work in integration", "source": "validation"}
+{"ts": "2025-08-26T08:26:21.366090+02:00", "level": "INFO", "message": "📋 Generating validation report..."}
+{"ts": "2025-08-26T08:26:21.367104+02:00", "level": "INFO", "message": "📄 Validation report saved to phase7_validation_report_20250826_082621.json"}
+{"ts": "2025-08-26T08:26:21.368197+02:00", "level": "ERROR", "message": "[validation] ❌ Phase 7 validation failed", "source": "validation"}
+{"ts": "2025-08-26T08:28:55.141379+02:00", "level": "INFO", "message": "🧪 Starting Phase 7 validation..."}
+{"ts": "2025-08-26T08:28:55.141557+02:00", "level": "INFO", "message": "🧠 Testing ML categorization..."}
+{"ts": "2025-08-26T08:28:55.141671+02:00", "level": "INFO", "message": "🤖 Initializing ML categorizer..."}
+{"ts": "2025-08-26T08:28:55.141807+02:00", "level": "INFO", "message": "No existing model found, will train on first use"}
+{"ts": "2025-08-26T08:28:55.142173+02:00", "level": "INFO", "message": "Initializing database..."}
+{"ts": "2025-08-26T08:28:55.144407+02:00", "level": "INFO", "message": "Database initialized at events.db"}
+{"ts": "2025-08-26T08:28:55.145285+02:00", "level": "INFO", "message": "✅ ML categorization tests passed"}
+{"ts": "2025-08-26T08:28:55.145393+02:00", "level": "INFO", "message": "⚡ Testing performance monitoring..."}
+{"ts": "2025-08-26T08:28:55.145646+02:00", "level": "INFO", "message": "📊 Performance monitoring started"}
+{"ts": "2025-08-26T08:28:55.150969+02:00", "level": "INFO", "message": "🔄 Started processing session session_1756189735 with 100 items"}
+{"ts": "2025-08-26T08:28:55.251613+02:00", "level": "INFO", "message": "✅ Session session_1756189735 completed successfully"}
+{"ts": "2025-08-26T08:28:55.252308+02:00", "level": "INFO", "message": "⏹️ Performance monitoring stopped"}
+{"ts": "2025-08-26T08:28:55.252728+02:00", "level": "INFO", "message": "✅ Performance monitoring tests passed"}
+{"ts": "2025-08-26T08:28:55.253078+02:00", "level": "INFO", "message": "📊 Testing analytics..."}
+{"ts": "2025-08-26T08:28:55.253795+02:00", "level": "INFO", "message": "🔍 Analyzing event trends for last 30 days..."}
+{"ts": "2025-08-26T08:28:55.258521+02:00", "level": "ERROR", "message": "[validation] Analytics test failed: Unexpected trend types: set()", "source": "validation"}
+{"ts": "2025-08-26T08:28:55.259003+02:00", "level": "INFO", "message": "🔗 Testing component integration..."}
+{"ts": "2025-08-26T08:28:55.259392+02:00", "level": "INFO", "message": "🤖 Initializing ML categorizer..."}
+{"ts": "2025-08-26T08:28:55.259826+02:00", "level": "INFO", "message": "No existing model found, will train on first use"}
+{"ts": "2025-08-26T08:28:55.260172+02:00", "level": "INFO", "message": "📊 Performance monitoring started"}
+{"ts": "2025-08-26T08:28:55.260610+02:00", "level": "INFO", "message": "🔄 Started processing session session_1756189735 with 1 items"}
+{"ts": "2025-08-26T08:28:55.261340+02:00", "level": "INFO", "message": "✅ Session session_1756189735 completed successfully"}
+{"ts": "2025-08-26T08:28:55.262077+02:00", "level": "ERROR", "message": "[validation] Integration test failed: Categorization did not work in integration", "source": "validation"}
+{"ts": "2025-08-26T08:28:55.262569+02:00", "level": "INFO", "message": "📋 Generating validation report..."}
+{"ts": "2025-08-26T08:28:55.263613+02:00", "level": "INFO", "message": "📄 Validation report saved to phase7_validation_report_20250826_082855.json"}
+{"ts": "2025-08-26T08:28:55.264728+02:00", "level": "ERROR", "message": "[validation] ❌ Phase 7 validation failed", "source": "validation"}
+{"ts": "2025-08-26T08:30:33.239358+02:00", "level": "INFO", "message": "🧪 Starting Phase 7 validation..."}
+{"ts": "2025-08-26T08:30:33.239534+02:00", "level": "INFO", "message": "🧠 Testing ML categorization..."}
+{"ts": "2025-08-26T08:30:33.239656+02:00", "level": "INFO", "message": "🤖 Initializing ML categorizer..."}
+{"ts": "2025-08-26T08:30:33.239782+02:00", "level": "INFO", "message": "No existing model found, will train on first use"}
+{"ts": "2025-08-26T08:30:33.240168+02:00", "level": "INFO", "message": "Initializing database..."}
+{"ts": "2025-08-26T08:30:33.242163+02:00", "level": "INFO", "message": "Database initialized at events.db"}
+{"ts": "2025-08-26T08:30:33.243092+02:00", "level": "INFO", "message": "✅ ML categorization tests passed"}
+{"ts": "2025-08-26T08:30:33.243234+02:00", "level": "INFO", "message": "⚡ Testing performance monitoring..."}
+{"ts": "2025-08-26T08:30:33.243542+02:00", "level": "INFO", "message": "📊 Performance monitoring started"}
+{"ts": "2025-08-26T08:30:33.248795+02:00", "level": "INFO", "message": "🔄 Started processing session session_1756189833 with 100 items"}
+{"ts": "2025-08-26T08:30:33.349448+02:00", "level": "INFO", "message": "✅ Session session_1756189833 completed successfully"}
+{"ts": "2025-08-26T08:30:33.349648+02:00", "level": "INFO", "message": "⏹️ Performance monitoring stopped"}
+{"ts": "2025-08-26T08:30:33.349764+02:00", "level": "INFO", "message": "✅ Performance monitoring tests passed"}
+{"ts": "2025-08-26T08:30:33.349862+02:00", "level": "INFO", "message": "📊 Testing analytics..."}
+{"ts": "2025-08-26T08:30:33.350166+02:00", "level": "ERROR", "message": "[validation] Analytics test failed: 'DatabaseManager' object has no attribute 'save_event'", "source": "validation"}
+{"ts": "2025-08-26T08:30:33.350296+02:00", "level": "INFO", "message": "🔗 Testing component integration..."}
+{"ts": "2025-08-26T08:30:33.350407+02:00", "level": "INFO", "message": "🤖 Initializing ML categorizer..."}
+{"ts": "2025-08-26T08:30:33.350500+02:00", "level": "INFO", "message": "No existing model found, will train on first use"}
+{"ts": "2025-08-26T08:30:33.350565+02:00", "level": "INFO", "message": "📊 Performance monitoring started"}
+{"ts": "2025-08-26T08:30:33.350658+02:00", "level": "INFO", "message": "🔄 Started processing session session_1756189833 with 1 items"}
+{"ts": "2025-08-26T08:30:33.350782+02:00", "level": "INFO", "message": "✅ Session session_1756189833 completed successfully"}
+{"ts": "2025-08-26T08:30:33.350851+02:00", "level": "INFO", "message": "Running mini stress test..."}
+{"ts": "2025-08-26T08:30:33.351375+02:00", "level": "INFO", "message": "⏹️ Performance monitoring stopped"}
+{"ts": "2025-08-26T08:30:33.351463+02:00", "level": "INFO", "message": "✅ Integration tests passed"}
+{"ts": "2025-08-26T08:30:33.351538+02:00", "level": "INFO", "message": "📋 Generating validation report..."}
+{"ts": "2025-08-26T08:30:33.351758+02:00", "level": "INFO", "message": "📄 Validation report saved to phase7_validation_report_20250826_083033.json"}
+{"ts": "2025-08-26T08:30:33.352033+02:00", "level": "ERROR", "message": "[validation] ❌ Phase 7 validation failed", "source": "validation"}
+{"ts": "2025-08-26T08:31:14.971681+02:00", "level": "INFO", "message": "🧪 Starting Phase 7 validation..."}
+{"ts": "2025-08-26T08:31:14.971851+02:00", "level": "INFO", "message": "🧠 Testing ML categorization..."}
+{"ts": "2025-08-26T08:31:14.971947+02:00", "level": "INFO", "message": "🤖 Initializing ML categorizer..."}
+{"ts": "2025-08-26T08:31:14.972103+02:00", "level": "INFO", "message": "No existing model found, will train on first use"}
+{"ts": "2025-08-26T08:31:14.972496+02:00", "level": "INFO", "message": "Initializing database..."}
+{"ts": "2025-08-26T08:31:14.974864+02:00", "level": "INFO", "message": "Database initialized at events.db"}
+{"ts": "2025-08-26T08:31:14.975903+02:00", "level": "INFO", "message": "✅ ML categorization tests passed"}
+{"ts": "2025-08-26T08:31:14.976014+02:00", "level": "INFO", "message": "⚡ Testing performance monitoring..."}
+{"ts": "2025-08-26T08:31:14.976286+02:00", "level": "INFO", "message": "📊 Performance monitoring started"}
+{"ts": "2025-08-26T08:31:14.981373+02:00", "level": "INFO", "message": "🔄 Started processing session session_1756189874 with 100 items"}
+{"ts": "2025-08-26T08:31:15.082119+02:00", "level": "INFO", "message": "✅ Session session_1756189874 completed successfully"}
+{"ts": "2025-08-26T08:31:15.082873+02:00", "level": "INFO", "message": "⏹️ Performance monitoring stopped"}
+{"ts": "2025-08-26T08:31:15.083300+02:00", "level": "INFO", "message": "✅ Performance monitoring tests passed"}
+{"ts": "2025-08-26T08:31:15.083664+02:00", "level": "INFO", "message": "📊 Testing analytics..."}
+{"ts": "2025-08-26T08:31:15.086052+02:00", "level": "INFO", "message": "Saving 20 events from analytics_test to database..."}
+{"ts": "2025-08-26T08:31:15.092753+02:00", "level": "ERROR", "message": "[database] Error saving event 'Test Event 0': '_asyncio.Future' object is not subscriptable", "source": "database"}
+{"ts": "2025-08-26T08:31:15.096166+02:00", "level": "ERROR", "message": "[database] Error saving event 'Test Event 1': '_asyncio.Future' object is not subscriptable", "source": "database"}
+{"ts": "2025-08-26T08:31:15.099525+02:00", "level": "ERROR", "message": "[database] Error saving event 'Test Event 2': '_asyncio.Future' object is not subscriptable", "source": "database"}
+{"ts": "2025-08-26T08:31:15.103146+02:00", "level": "ERROR", "message": "[database] Error saving event 'Test Event 3': SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139932399076928 and this is thread id 139932307809856.", "source": "database"}
+{"ts": "2025-08-26T08:31:15.104632+02:00", "level": "ERROR", "message": "[database] Error saving event 'Test Event 4': SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139932399076928 and this is thread id 139932307809856.", "source": "database"}
+{"ts": "2025-08-26T08:31:15.106667+02:00", "level": "ERROR", "message": "[database] Error saving event 'Test Event 5': SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139932399076928 and this is thread id 139932307809856.", "source": "database"}
+{"ts": "2025-08-26T08:31:15.108555+02:00", "level": "ERROR", "message": "[database] Error saving event 'Test Event 6': SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139932399076928 and this is thread id 139932307809856.", "source": "database"}
+{"ts": "2025-08-26T08:31:15.109881+02:00", "level": "ERROR", "message": "[database] Error saving event 'Test Event 7': SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139932399076928 and this is thread id 139932307809856.", "source": "database"}
+{"ts": "2025-08-26T08:31:15.112354+02:00", "level": "ERROR", "message": "[database] Error saving event 'Test Event 8': SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139932399076928 and this is thread id 139932307809856.", "source": "database"}
+{"ts": "2025-08-26T08:31:15.114175+02:00", "level": "ERROR", "message": "[database] Error saving event 'Test Event 9': SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139932399076928 and this is thread id 139932307809856.", "source": "database"}
+{"ts": "2025-08-26T08:31:15.116491+02:00", "level": "ERROR", "message": "[database] Error saving event 'Test Event 10': SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139932399076928 and this is thread id 139932307809856.", "source": "database"}
+{"ts": "2025-08-26T08:31:15.118366+02:00", "level": "ERROR", "message": "[database] Error saving event 'Test Event 11': SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139932399076928 and this is thread id 139932307809856.", "source": "database"}
+{"ts": "2025-08-26T08:31:15.120165+02:00", "level": "ERROR", "message": "[database] Error saving event 'Test Event 12': SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139932399076928 and this is thread id 139932307809856.", "source": "database"}
+{"ts": "2025-08-26T08:31:15.122622+02:00", "level": "ERROR", "message": "[database] Error saving event 'Test Event 13': SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139932399076928 and this is thread id 139932307809856.", "source": "database"}
+{"ts": "2025-08-26T08:31:15.123977+02:00", "level": "ERROR", "message": "[database] Error saving event 'Test Event 14': SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139932399076928 and this is thread id 139932307809856.", "source": "database"}
+{"ts": "2025-08-26T08:31:15.125761+02:00", "level": "ERROR", "message": "[database] Error saving event 'Test Event 15': SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139932399076928 and this is thread id 139932307809856.", "source": "database"}
+{"ts": "2025-08-26T08:31:15.127651+02:00", "level": "ERROR", "message": "[database] Error saving event 'Test Event 16': SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139932399076928 and this is thread id 139932307809856.", "source": "database"}
+{"ts": "2025-08-26T08:31:15.128987+02:00", "level": "ERROR", "message": "[database] Error saving event 'Test Event 17': SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139932399076928 and this is thread id 139932307809856.", "source": "database"}
+{"ts": "2025-08-26T08:31:15.130815+02:00", "level": "ERROR", "message": "[database] Error saving event 'Test Event 18': SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139932399076928 and this is thread id 139932307809856.", "source": "database"}
+{"ts": "2025-08-26T08:31:15.132422+02:00", "level": "ERROR", "message": "[database] Error saving event 'Test Event 19': SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139932399076928 and this is thread id 139932307809856.", "source": "database"}
+{"ts": "2025-08-26T08:31:15.133599+02:00", "level": "ERROR", "message": "[validation] Analytics test failed: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139932399076928 and this is thread id 139932307809856.", "source": "validation"}
+{"ts": "2025-08-26T08:31:15.133886+02:00", "level": "INFO", "message": "🔗 Testing component integration..."}
+{"ts": "2025-08-26T08:31:15.134142+02:00", "level": "INFO", "message": "🤖 Initializing ML categorizer..."}
+{"ts": "2025-08-26T08:31:15.134462+02:00", "level": "INFO", "message": "No existing model found, will train on first use"}
+{"ts": "2025-08-26T08:31:15.134692+02:00", "level": "INFO", "message": "📊 Performance monitoring started"}
+{"ts": "2025-08-26T08:31:15.135000+02:00", "level": "INFO", "message": "🔄 Started processing session session_1756189875 with 1 items"}
+{"ts": "2025-08-26T08:31:15.135418+02:00", "level": "INFO", "message": "✅ Session session_1756189875 completed successfully"}
+{"ts": "2025-08-26T08:31:15.135661+02:00", "level": "INFO", "message": "Running mini stress test..."}
+{"ts": "2025-08-26T08:31:15.137414+02:00", "level": "INFO", "message": "⏹️ Performance monitoring stopped"}
+{"ts": "2025-08-26T08:31:15.137640+02:00", "level": "INFO", "message": "✅ Integration tests passed"}
+{"ts": "2025-08-26T08:31:15.137830+02:00", "level": "INFO", "message": "📋 Generating validation report..."}
+{"ts": "2025-08-26T08:31:15.138352+02:00", "level": "INFO", "message": "📄 Validation report saved to phase7_validation_report_20250826_083115.json"}
+{"ts": "2025-08-26T08:31:15.138929+02:00", "level": "ERROR", "message": "[validation] ❌ Phase 7 validation failed", "source": "validation"}
+{"ts": "2025-08-26T08:32:05.726514+02:00", "level": "INFO", "message": "🧪 Starting Phase 7 validation..."}
+{"ts": "2025-08-26T08:32:05.726708+02:00", "level": "INFO", "message": "🧠 Testing ML categorization..."}
+{"ts": "2025-08-26T08:32:05.726795+02:00", "level": "INFO", "message": "🤖 Initializing ML categorizer..."}
+{"ts": "2025-08-26T08:32:05.726912+02:00", "level": "INFO", "message": "No existing model found, will train on first use"}
+{"ts": "2025-08-26T08:32:05.727205+02:00", "level": "INFO", "message": "Initializing database..."}
+{"ts": "2025-08-26T08:32:05.729371+02:00", "level": "INFO", "message": "Database initialized at events.db"}
+{"ts": "2025-08-26T08:32:05.730119+02:00", "level": "INFO", "message": "✅ ML categorization tests passed"}
+{"ts": "2025-08-26T08:32:05.730216+02:00", "level": "INFO", "message": "⚡ Testing performance monitoring..."}
+{"ts": "2025-08-26T08:32:05.730526+02:00", "level": "INFO", "message": "📊 Performance monitoring started"}
+{"ts": "2025-08-26T08:32:05.735871+02:00", "level": "INFO", "message": "🔄 Started processing session session_1756189925 with 100 items"}
+{"ts": "2025-08-26T08:32:05.836522+02:00", "level": "INFO", "message": "✅ Session session_1756189925 completed successfully"}
+{"ts": "2025-08-26T08:32:05.837230+02:00", "level": "INFO", "message": "⏹️ Performance monitoring stopped"}
+{"ts": "2025-08-26T08:32:05.837622+02:00", "level": "INFO", "message": "✅ Performance monitoring tests passed"}
+{"ts": "2025-08-26T08:32:05.837983+02:00", "level": "INFO", "message": "📊 Testing analytics..."}
+{"ts": "2025-08-26T08:32:05.839018+02:00", "level": "INFO", "message": "🔍 Analyzing event trends for last 30 days..."}
+{"ts": "2025-08-26T08:32:05.843103+02:00", "level": "INFO", "message": "🧠 Generating event insights..."}
+{"ts": "2025-08-26T08:32:05.844559+02:00", "level": "INFO", "message": "✅ Generated 4 insights"}
+{"ts": "2025-08-26T08:32:05.845044+02:00", "level": "INFO", "message": "📊 Exporting analytics report to test_analytics_report.json..."}
+{"ts": "2025-08-26T08:32:05.849292+02:00", "level": "INFO", "message": "🔍 Analyzing event trends for last 7 days..."}
+{"ts": "2025-08-26T08:32:05.853308+02:00", "level": "INFO", "message": "🧠 Generating event insights..."}
+{"ts": "2025-08-26T08:32:05.853904+02:00", "level": "INFO", "message": "✅ Generated 3 insights"}
+{"ts": "2025-08-26T08:32:05.855515+02:00", "level": "INFO", "message": "✅ Analytics report exported to test_analytics_report.json"}
+{"ts": "2025-08-26T08:32:05.856455+02:00", "level": "INFO", "message": "✅ Analytics tests passed"}
+{"ts": "2025-08-26T08:32:05.856906+02:00", "level": "INFO", "message": "🔗 Testing component integration..."}
+{"ts": "2025-08-26T08:32:05.857297+02:00", "level": "INFO", "message": "🤖 Initializing ML categorizer..."}
+{"ts": "2025-08-26T08:32:05.857725+02:00", "level": "INFO", "message": "No existing model found, will train on first use"}
+{"ts": "2025-08-26T08:32:05.858079+02:00", "level": "INFO", "message": "📊 Performance monitoring started"}
+{"ts": "2025-08-26T08:32:05.858663+02:00", "level": "INFO", "message": "🔄 Started processing session session_1756189925 with 1 items"}
+{"ts": "2025-08-26T08:32:05.859316+02:00", "level": "INFO", "message": "✅ Session session_1756189925 completed successfully"}
+{"ts": "2025-08-26T08:32:05.859690+02:00", "level": "INFO", "message": "Running mini stress test..."}
+{"ts": "2025-08-26T08:32:05.862427+02:00", "level": "INFO", "message": "⏹️ Performance monitoring stopped"}
+{"ts": "2025-08-26T08:32:05.862863+02:00", "level": "INFO", "message": "✅ Integration tests passed"}
+{"ts": "2025-08-26T08:32:05.863243+02:00", "level": "INFO", "message": "📋 Generating validation report..."}
+{"ts": "2025-08-26T08:32:05.864241+02:00", "level": "INFO", "message": "📄 Validation report saved to phase7_validation_report_20250826_083205.json"}
+{"ts": "2025-08-26T08:32:05.865461+02:00", "level": "INFO", "message": "✅ Phase 7 validation completed successfully!"}

@@ -1,0 +1,62 @@
+{
+  "facebook_event_sources": {
+    "moss_kulturhus": {
+      "url": "https://www.facebook.com/mosskulturhus",
+      "manual_check": "Visit regularly for event announcements",
+      "type": "Official venue page"
+    },
+    "verket_scene": {
+      "url": "https://www.facebook.com/verketscene",
+      "manual_check": "Check events section weekly",
+      "type": "Cultural venue"
+    },
+    "moss_kommune": {
+      "url": "https://www.facebook.com/mosskommune",
+      "manual_check": "Municipal events and announcements",
+      "type": "Official municipality"
+    },
+    "moss_kunstforening": {
+      "url": "https://www.facebook.com/mosskunstforening",
+      "manual_check": "Art exhibitions and cultural events",
+      "type": "Art association"
+    }
+  },
+  "facebook_limitations": {
+    "anti_scraping": "Facebook blocks automated data collection",
+    "javascript_required": "Most content loads dynamically",
+    "login_required": "Many events require Facebook login to view",
+    "api_restrictions": "Graph API requires app approval and tokens"
+  },
+  "alternative_methods": {
+    "manual_collection": {
+      "frequency": "Weekly check of Facebook pages",
+      "method": "Copy event details manually",
+      "tools": "Browser bookmarks for quick access"
+    },
+    "user_submissions": {
+      "method": "Create web form for users to submit Facebook events",
+      "validation": "Manual review before publication",
+      "incentive": "Community contribution recognition"
+    },
+    "rss_feeds": {
+      "method": "Some Facebook pages offer RSS feeds",
+      "example": "facebook.com/feeds/page.php?id=PAGE_ID&format=rss20",
+      "limitation": "Not all pages have public RSS"
+    },
+    "ifttt_zapier": {
+      "method": "Use automation tools for Facebook monitoring",
+      "services": [
+        "IFTTT",
+        "Zapier",
+        "Microsoft Power Automate"
+      ],
+      "trigger": "New Facebook page posts"
+    }
+  },
+  "recommended_workflow": {
+    "step_1": "Weekly manual check of key Facebook pages",
+    "step_2": "Document events in standardized format",
+    "step_3": "Add to database via admin interface",
+    "step_4": "Verify event details with venue websites"
+  }
+}

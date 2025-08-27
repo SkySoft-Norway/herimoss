@@ -1,0 +1,93 @@
+2025-08-26 09:22:11,947 - INFO - 🎭 Starting Moss Kulturhus scraping...
+2025-08-26 09:22:12,006 - INFO - 📍 Scraping URLs: ['https://www.mosskulturhus.no/program', 'https://www.mosskulturhus.no/arrangementer']
+2025-08-26 09:22:12,006 - INFO - Fetching HTML from https://www.mosskulturhus.no/program
+2025-08-26 09:22:12,714 - INFO - Extracted 60 events from HTML
+2025-08-26 09:22:12,714 - INFO - Fetching HTML from https://www.mosskulturhus.no/arrangementer
+2025-08-26 09:22:17,458 - ERROR - [Moss Kulturhus] Error scraping HTML: RetryError[<Future at 0x7f2ed2268e50 state=finished raised HTTPStatusError>]
+2025-08-26 09:22:17,458 - INFO - ✅ Found 60 events from Moss Kulturhus
+2025-08-26 09:22:17,458 - INFO - Initializing database...
+2025-08-26 09:22:17,461 - INFO - Database initialized at events.db
+2025-08-26 09:22:17,461 - INFO - Error saving event Compagniet – Moss bluesklubb: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,462 - INFO - Error saving event Natalie Aldema duo – Kafé 67+: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,462 - INFO - Error saving event Verdiløse menn – En Jokke-mussikal: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,462 - INFO - Error saving event Juliet & Romeo – Nonstopfestivalen: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,462 - INFO - Error saving event Festivalpass – Nonstop Internasjonale teaterfestival 2025: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,462 - INFO - Error saving event Frys – Nonstopfestivalen: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,462 - INFO - Error saving event Alex Barti Show – Nonstopfestivalen: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,462 - INFO - Error saving event I morgen var jeg alltid en løve – Nonstopfestivalen: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,463 - INFO - Error saving event Piste, Piste, Piste – Nonstopfestivalen: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,463 - INFO - Error saving event Forbrytar og straff – Nonstopfestivalen: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,463 - INFO - Error saving event Double bill – Nonstopfestivalen: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,463 - INFO - Error saving event Mondo – Nonstopfestivalen: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,463 - INFO - Error saving event Riksteatret: Legenden om Narnia – Løven, heksa og klesskapet: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,463 - INFO - Error saving event Jeg er vinden – Nonstopfestivalen: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,463 - INFO - Error saving event Annerledes og Stolt!: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,463 - INFO - Error saving event Dora Thorhallsdottir – LIVET ass…: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,464 - INFO - Error saving event Bluesdronningen Rita Engedalen – Moss bluesklubb: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,464 - INFO - Error saving event Kunstskatter i Nasjonalmuseet – Kafe´ 67+: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,464 - INFO - Error saving event Adam Douglas: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,464 - INFO - Error saving event Best of The Beatles: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,464 - INFO - Error saving event Ørjan Burøe – Greatest Vits: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,464 - INFO - Error saving event HØYTRYKK – 10 årsjubileum: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,464 - INFO - Error saving event DNBE + Sanne Kvitnes: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,464 - INFO - Error saving event Skadefryd – Dag Sørås: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,465 - INFO - Error saving event Anita Nordheim Blues n’ Groove Company – Moss bluesklubb: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,465 - INFO - Error saving event Showkonsert Heine Totland og Karianne Kjærnes med Moss Big Band: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,465 - INFO - Error saving event Riksteatret: Ord for blod: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,465 - INFO - Error saving event Hanna Paulsberg – Do you want my job? – Moss Jazzklubb: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,465 - INFO - Error saving event LifeGame – Østfold internasjonale teater: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,465 - INFO - Error saving event Folk og røvere i kardemomme by: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,465 - INFO - Error saving event Folk og røvere i kardemomme by – Ekstraforestilling!: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,466 - INFO - Error saving event Koht, håp og glede: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,466 - INFO - Error saving event Maja Lunde – Skjerm barna: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,466 - INFO - Error saving event Kristin Harila – Den ultimate triumfen og tragedien som fulgte: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,466 - INFO - Error saving event Blått og godt – Moss bluesklubb: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,466 - INFO - Error saving event Janneloven – Et One Woman Show: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,466 - INFO - Error saving event Bak lukkede dører – De syke og farlige blant oss – Foredrag med Randi Rosenquist: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,466 - INFO - Error saving event Tøyser jula inn: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,466 - INFO - Error saving event Silje Nergaard med band – Moss jazzklubb: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,466 - INFO - Error saving event J.T.Lauritsen & The Buckshot Hunters – Moss bluesklubb: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,466 - INFO - Error saving event Bjørn & Bjarte, den tøffe & den sarte.: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,466 - INFO - Error saving event Christmas With Nordic Tenors 2025: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,466 - INFO - Error saving event Didrik Solli -Tangen – O Helga Natt: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,466 - INFO - Error saving event Dr Bergland – På liv og død – 2025: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,467 - INFO - Error saving event Stjernenatt – Odd René Andersen: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,467 - INFO - Error saving event DNBE + Solveig Slettahjell : Julekonsert: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,467 - INFO - Error saving event Dagfinn Lyngbø – folk – 2025: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,467 - INFO - Error saving event Nøtteknekkeren – Klassisk juleballett: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,467 - INFO - Error saving event Symfonica: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,467 - INFO - Error saving event Julefest – med Anders Baasmo, Reidun Sæther og Trond Nagell-Dahl: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,467 - INFO - Error saving event Julekonsert med Chris Medina, Alejandro Fuentes og Eirik Næss: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,467 - INFO - Error saving event Reisen til julestjernen: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,467 - INFO - Error saving event Ringe inn – Maria Haukaas Mittet & Lars Bremnes: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,467 - INFO - Error saving event Nyttårskonsert med DNBE: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,467 - INFO - Error saving event Anders Jektvik: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,467 - INFO - Error saving event Melissa Horn: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,467 - INFO - Error saving event Evig Ung: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,467 - INFO - Error saving event Riksteatret: Læreren: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,467 - INFO - Error saving event Vamp: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,467 - INFO - Error saving event Riksteatret: Skorpionens spill – I skyggen av Roblox: 'DatabaseManager' object has no attribute 'get_event_by_id'
+2025-08-26 09:22:17,467 - INFO - 💾 Saved: ✨ 0 new events, 🔄 0 updated events
+2025-08-26 09:22:17,468 - INFO - 📋 Sample events:
+2025-08-26 09:22:17,468 - INFO -   1. Compagniet – Moss bluesklubb
+2025-08-26 09:22:17,468 - INFO -      📍 Samfunnshuset
+2025-08-26 09:22:17,468 - INFO -      📅 2025-08-30 02:00:00+02:00
+2025-08-26 09:22:17,468 - INFO - 
+2025-08-26 09:22:17,468 - INFO -   2. Natalie Aldema duo – Kafé 67+
+2025-08-26 09:22:17,468 - INFO -      📍 Samfunnshuset
+2025-08-26 09:22:17,468 - INFO -      📅 2025-09-02 02:00:00+02:00
+2025-08-26 09:22:17,468 - INFO - 
+2025-08-26 09:22:17,468 - INFO -   3. Verdiløse menn – En Jokke-mussikal
+2025-08-26 09:22:17,468 - INFO -      📍 Parkteatret
+2025-08-26 09:22:17,468 - INFO -      📅 2025-09-02 02:00:00+02:00
+2025-08-26 09:22:17,468 - INFO - 
+2025-08-26 09:22:17,468 - INFO -   4. Juliet & Romeo – Nonstopfestivalen
+2025-08-26 09:22:17,468 - INFO -      📍 Parkteatret
+2025-08-26 09:22:17,468 - INFO -      📅 2025-09-17 02:00:00+02:00
+2025-08-26 09:22:17,468 - INFO - 
+2025-08-26 09:22:17,468 - INFO -   5. Festivalpass – Nonstop Internasjonale teaterfestival 2025
+2025-08-26 09:22:17,469 - INFO -      📍 Moss
+2025-08-26 09:22:17,469 - INFO -      📅 2025-09-17 02:00:00+02:00
+2025-08-26 09:22:17,469 - INFO - 
+
+🎉 Successfully processed 60 events from Moss Kulturhus!
